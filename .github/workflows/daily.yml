@@ -1,0 +1,33 @@
+name: Daily Wire Update
+
+on:
+  schedule:
+    # Runs at 11:00 UTC every day — adjust to whenever you want your briefing ready.
+    - cron: '0 11 * * *'
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab, for testing
+
+permissions:
+  contents: write
+
+jobs:
+  update-wire:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate today's wire
+        run: node scripts/generate.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "dossier-bot"
+          git config user.email "actions@github.com"
+          git add data/log.json
+          git diff --staged --quiet || git commit -m "Daily wire update: $(date -u +%Y-%m-%d)"
+          git push
