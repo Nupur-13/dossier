@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dossier — Daily Briefing</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root{
+  --ink:#1B2230;
+  --ink-soft:#252E42;
+  --ink-line:#3A4560;
+  --paper:#EFE8D8;
+  --paper-dim:#E4DAC2;
+  --brass:#C79A4B;
+  --brass-dim:#9C7534;
+  --clay:#B85338;
+  --clay-dim:#3A2420;
+  --moss:#7C8A57;
+  --moss-dim:#242A1D;
+  --steel:#5A7FA3;
+  --steel-dim:#1E2A36;
+  --text-light:#EFE8D8;
+  --text-muted:#A9AFC0;
+  --text-dark:#1B2230;
+  --text-dark-muted:#5B5744;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0;
+  background:
+    radial-gradient(ellipse at top left, #232C40 0%, var(--ink) 55%),
+    var(--ink);
+  color:var(--text-light);
+  font-family:'Spectral', serif;
+  padding:0;
+  min-height:100vh;
+}
+#app{max-width:1100px;margin:0 auto;padding:28px 20px 80px;}
+
+/* ---------- MASTHEAD ---------- */
+.masthead{
+  border-bottom:2px solid var(--brass-dim);
+  padding-bottom:16px;
+  margin-bottom:24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.masthead-title{
+  font-family:'Fraunces', serif;
+  font-weight:700;
+  font-size:2.4rem;
+  letter-spacing:0.02em;
+  color:var(--paper);
+  margin:0;
+  line-height:1;
+}
+.masthead-sub{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.72rem;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  color:var(--brass);
+  margin-top:6px;
+}
+.masthead-stats{
+  display:flex;
+  gap:22px;
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.78rem;
+  text-align:right;
+}
+.mstat-num{font-size:1.5rem;color:var(--paper);display:block;font-weight:600;}
+.mstat-label{color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;font-size:0.65rem;}
+
+/* ---------- LAYOUT ---------- */
+.grid{display:grid;grid-template-columns:1.6fr 1fr;gap:20px;align-items:start;}
+@media (max-width:820px){.grid{grid-template-columns:1fr;}}
+
+.card{
+  background:var(--paper);
+  color:var(--text-dark);
+  border-radius:3px;
+  padding:26px 28px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.28);
+  position:relative;
+}
+.card + .card{margin-top:18px;}
+.panel{
+  background:var(--ink-soft);
+  border:1px solid var(--ink-line);
+  border-radius:3px;
+  padding:22px 24px;
+}
+.panel + .panel{margin-top:18px;}
+
+/* category tag */
+.tag{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.68rem;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  padding:4px 10px;
+  border-radius:2px;
+  font-weight:600;
+}
+.tag-geo{background:var(--clay);color:#fff;}
+.tag-hist{background:var(--moss);color:#fff;}
+.tag-ind{background:var(--steel);color:#fff;}
+.tag-custom{background:var(--brass-dim);color:#fff;}
+
+.topic-meta{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:14px;}
+.topic-era{font-family:'IBM Plex Mono', monospace;font-size:0.72rem;color:var(--text-dark-muted);}
+
+.topic-title{
+  font-family:'Fraunces', serif;
+  font-weight:600;
+  font-size:1.7rem;
+  margin:0 0 14px 0;
+  line-height:1.15;
+  color:var(--text-dark);
+}
+.topic-brief{font-size:1.02rem;line-height:1.65;color:var(--text-dark);}
+.topic-brief p{margin:0;}
+
+.divider{height:1px;background:var(--text-dark-muted);opacity:0.18;margin:20px 0;}
+
+.select-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:16px;}
+select, textarea, input[type=text]{
+  font-family:'Spectral', serif;
+  font-size:0.95rem;
+  border:1px solid var(--text-dark-muted);
+  border-radius:2px;
+  padding:8px 10px;
+  background:#fff;
+  color:var(--text-dark);
+}
+select{font-family:'IBM Plex Mono', monospace;font-size:0.78rem;}
+textarea{width:100%;resize:vertical;min-height:70px;line-height:1.5;}
+
+button{
+  font-family:'IBM Plex Mono', monospace;
+  font-size:0.72rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  font-weight:600;
+  border:none;
+  border-radius:2px;
+  padding:10px 16px;
+  cursor:pointer;
+  background:var(--brass);
+  color:var(--ink);
+  transition:opacity 0.15s;
+}
+button:hover{opacity:0.85;}
+button.secondary{background:transparent;border:1px solid var(--brass);color:var(--brass);}
+button.small{padding:6px 10px;font-size:0.65rem;}
+button:disabled{opacity:0.4;cursor:default;}
+
+/* quiz */
+.quiz-q{margin-bottom:18px;}
+.quiz-q-text{font-weight:600;color:var(--text-dark);margin-bottom:8px;font-family:'Fraunces',serif;font-size:1.05rem;}
+.quiz-opts{display:flex;flex-direction:column;gap:6px;}
+.quiz-opt{
+  text-align:left;
+  background:var(--paper-dim);
+  border:1px solid var(--text-dark-muted);
+  color:var(--text-dark);
+  font-family:'Spectral',serif;
+  font-size:0.9rem;
+  text-transform:none;
+  letter-spacing:0;
+  font-weight:400;
+  padding:9px 12px;
+}
+.quiz-opt.correct{background:#DCE7C8;border-color:var(--moss);font-weight:600;}
+.quiz-opt.wrong{background:#EAD0C8;border-color:var(--clay);}
+.quiz-score{font-family:'IBM Plex Mono',monospace;font-size:0.8rem;color:var(--text-dark-muted);margin-top:4px;}
+
+/* connections svg */
+.panel h3{font-family:'Fraunces',serif;font-weight:600;font-size:1.1rem;margin:0 0 4px 0;color:var(--paper);}
+.panel-sub{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:14px;}
+.conn-node{cursor:pointer;}
+.conn-node:hover .conn-node-circle{stroke:var(--brass);stroke-width:2.5;}
+.conn-label{font-family:'IBM Plex Mono', monospace;font-size:10px;fill:var(--text-light);}
+.conn-note{font-family:'Spectral',serif;font-style:italic;font-size:11px;fill:var(--text-muted);}
+
+/* ledger */
+.ledger-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 0;border-bottom:1px solid var(--ink-line);
+  gap:10px;flex-wrap:wrap;
+}
+.ledger-row:last-child{border-bottom:none;}
+.ledger-title{font-weight:600;color:var(--paper);font-size:0.92rem;}
+.ledger-date{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--text-muted);}
+.ledger-empty{color:var(--text-muted);font-style:italic;font-size:0.9rem;}
+
+.filter-row{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
+.filter-btn{
+  background:transparent;border:1px solid var(--ink-line);color:var(--text-muted);
+  padding:6px 12px;font-size:0.65rem;
+}
+.filter-btn.active{border-color:var(--brass);color:var(--brass);}
+
+.statbar{display:flex;gap:18px;margin-bottom:6px;flex-wrap:wrap;}
+.statbar-item{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--text-muted);}
+.statbar-item b{color:var(--paper);font-size:0.95rem;}
+
+label.field-label{display:block;font-family:'IBM Plex Mono',monospace;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted);margin-bottom:5px;margin-top:12px;}
+
+.done-badge{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;color:var(--moss-dim);background:#DCE7C8;padding:4px 10px;border-radius:2px;}
+</style>
+</head>
+<body>
+<div id="app">Loading…</div>
+
+<script>
+const TOPICS = [
+{id:'geo1',category:'geo',tag:'1944 · Global finance',title:'Bretton Woods & the Dollar Order',
+brief:"In July 1944, delegates from 44 Allied nations met at Bretton Woods, New Hampshire, to design the postwar monetary order. They pegged currencies to the US dollar, itself pegged to gold at $35/ounce, and created the IMF and World Bank to manage exchange stability and reconstruction lending. The system gave the US an unusual 'exorbitant privilege': as the anchor currency, dollar demand let America borrow cheaply and run deficits others couldn't. It embedded US economic leadership into the postwar order alongside its military role. The system unraveled in 1971 when Nixon suspended dollar-gold convertibility (the 'Nixon Shock') amid mounting deficits, ushering in floating exchange rates. Yet the dollar's centrality persisted through oil trade, reserve holdings, and trade invoicing — a legacy still shaping today's sanctions power and de-dollarization debates.",
+connections:[{id:'hist2',note:'Built the same postwar architecture'},{id:'ind6',note:'Dollar and military power as twin pillars'},{id:'geo7',note:'Dollar centrality enables sanctions leverage'}],
+quiz:[{q:"What year did the Bretton Woods conference take place?",options:["1919","1944","1971","1989"],correct:1},
+{q:"What event ended the dollar's fixed convertibility to gold?",options:["Bretton Woods conference","Marshall Plan","The Nixon Shock (1971)","Plaza Accord"],correct:2}]},
+
+{id:'hist1',category:'hist',tag:'1814–15 · Europe',title:'The Congress of Vienna',
+brief:"After Napoleon's defeat, Europe's great powers — Austria, Russia, Prussia, Britain, and eventually a restored France — met at the Congress of Vienna to redraw the continent's map and prevent another two decades of continent-wide war. Rather than punishing France into collapse, they aimed for equilibrium: no single power should be strong enough to dominate the rest. Territories were redistributed to create buffer states, and the 'Concert of Europe' — regular diplomatic consultation among great powers — followed, keeping large-scale war at bay for roughly a century until 1914. The Congress is the founding case study in 'balance of power' thinking: stability comes not from eliminating rivals but from ensuring no single actor can overturn the system alone. That logic underlies much of modern alliance politics, from NATO's founding purpose to debates over how far to expand it without upsetting a rival's perceived balance.",
+connections:[{id:'geo4',note:"NATO expansion debates echo this logic directly"},{id:'hist4',note:'Cold War order was a later, bipolar version of the same balancing act'},{id:'geo1',note:'Bretton Woods was the economic counterpart to postwar political order'}],
+quiz:[{q:"What system of great-power diplomacy followed the Congress of Vienna?",options:["League of Nations","Concert of Europe","Triple Entente","Hanseatic League"],correct:1},
+{q:"Roughly how long did this order prevent continent-wide European war?",options:["10 years","30 years","~100 years","200 years"],correct:2}]},
+
+{id:'ind1',category:'ind',tag:'Present · Technology',title:'Semiconductors & TSMC\'s Chokehold',
+brief:"A single company, Taiwan's TSMC, manufactures the large majority of the world's most advanced logic chips — the processors inside smartphones, AI systems, and modern weapons. This concentration exists because leading-edge chip fabrication requires extraordinarily specialized equipment (much of it from a handful of firms like the Netherlands' ASML) and decades of accumulated know-how that's extremely difficult to replicate. That makes Taiwan strategically pivotal far beyond its size: a blockade or invasion could disrupt global chip supply overnight — one reason US, Japanese, and Chinese policy all treat chip access as a national-security issue, not a purely commercial one. The US has responded with export controls limiting China's access to chip-making equipment and subsidies (the CHIPS Act) to rebuild domestic capacity, while China has poured state investment into an alternative supply chain — a costly, slow effort given how specialized the industry has become.",
+connections:[{id:'geo5',note:'South China Sea and Taiwan Strait carry the shipping lanes for chip exports'},{id:'hist6',note:"China frames chip export controls through the 'Century of Humiliation' lens"},{id:'geo7',note:'Export controls function as a sanction-like tool of statecraft'}],
+quiz:[{q:"Which company manufactures most of the world's most advanced logic chips?",options:["Intel","Samsung","TSMC","Sony"],correct:2},
+{q:"What US legislation subsidizes domestic chip fabrication?",options:["CHIPS Act","Marshall Plan","Smoot-Hawley Act","Glass-Steagall"],correct:0}]},
+
+{id:'geo2',category:'geo',tag:'Maritime chokepoint',title:'Suez & Bab-el-Mandeb: The Narrow Waters',
+brief:"About 12% of global trade and a significant share of seaborne oil passes through the Suez Canal, connecting the Mediterranean to the Red Sea via the narrow Bab-el-Mandeb strait between Yemen and the Horn of Africa. Both are maritime chokepoints — narrow passages where a blockage, attack, or political dispute can ripple through global supply chains within days. The 2021 grounding of the container ship Ever Given blocked the canal for six days and delayed an estimated $9 billion a day in trade. Instability in Yemen and the wider Red Sea has periodically pushed shippers to reroute around Africa's Cape of Good Hope, adding roughly two weeks to voyages and raising freight and insurance costs. Control over — or safe passage through — these chokepoints is a recurring flashpoint, explaining outsized naval interest from the US, China, and regional powers in a waterway most people never see.",
+connections:[{id:'ind3',note:'Chokepoints shape global shipping routes and costs'},{id:'hist6',note:'Historic precedent of contested trade corridors'},{id:'geo5',note:'Naval competition over maritime chokepoints'}],
+quiz:[{q:"Roughly what share of global trade passes through the Suez Canal?",options:["2%","12%","25%","40%"],correct:1},
+{q:"How long did the Ever Given block the canal in 2021?",options:["1 day","6 days","1 month","1 year"],correct:1}]},
+
+{id:'hist2',category:'hist',tag:'1948–52 · Europe',title:'The Marshall Plan',
+brief:"Between 1948 and 1952 the US channeled roughly $13 billion (well over $150 billion today) into rebuilding Western European economies devastated by WWII. Officially the European Recovery Program, it aimed to restore industrial output, stabilize currencies, and — explicitly — blunt the appeal of communism in countries with fragile economies and active Communist parties, like France and Italy. Recipients had to cooperate on trade liberalization and planning, seeding institutions that eventually grew into European economic integration and, later, the EU. The Soviet Union refused to participate and pressured Eastern European states to decline too, hardening the emerging Cold War divide. The Marshall Plan set a template still referenced today: large-scale reconstruction aid tied to political alignment, later echoed in debates over how the US or China might fund reconstruction in conflict-affected regions.",
+connections:[{id:'geo1',note:'Companion to Bretton Woods in building the postwar order'},{id:'geo6',note:'Belt and Road is often compared to it as aid-with-strategy'},{id:'hist4',note:'The Berlin Airlift occurred amid the same East-West split it hardened'}],
+quiz:[{q:"What was the Marshall Plan's official name?",options:["Atlantic Charter","European Recovery Program","Truman Doctrine","Lend-Lease Act"],correct:1},
+{q:"Whose refusal to participate hardened the Cold War divide?",options:["United Kingdom","Soviet Union","Italy","West Germany"],correct:1}]},
+
+{id:'ind2',category:'ind',tag:'Critical minerals',title:'Rare Earths & China\'s Processing Dominance',
+brief:"'Rare earths' are seventeen chemically similar elements essential to magnets in electric motors, wind turbines, missile guidance, and smartphones. Despite the name, they aren't geologically rare — what's scarce is the willingness to process them, since refining is energy-intensive and highly polluting. China built dominant processing capacity over decades (controlling roughly 85–90% of global refining at various points), partly by accepting environmental costs others weren't willing to bear, and now controls the supply chain even for ore mined elsewhere. This gives Beijing real leverage: it has restricted rare-earth exports to Japan during a 2010 dispute and signaled willingness to use export controls in trade disputes with the US. Western governments are racing to build alternative processing capacity, but replicating decades of infrastructure and expertise takes years — a clear example of how 'who processes it' can matter more than 'who has the raw material.'",
+connections:[{id:'hist3',note:'Alternative supply sources sit largely in decolonization-era states'},{id:'geo6',note:'China has used BRI investments to lock in ore supply'},{id:'geo7',note:'Export restrictions function as a form of counter-sanction'}],
+quiz:[{q:"What is actually scarce about rare earth elements?",options:["The raw ore","Processing/refining capacity","Global demand","Mining rights"],correct:1},
+{q:"Roughly what share of global rare-earth processing has China controlled?",options:["20–30%","50%","85–90%","99%"],correct:2}]},
+
+{id:'geo3',category:'geo',tag:'1973 · Oil & energy',title:'OPEC and the 1973 Oil Shock',
+brief:"In October 1973, Arab members of OPEC imposed an oil embargo on the US and other supporters of Israel during the Yom Kippur War, roughly quadrupling oil prices within months. The shock exposed how dependent industrialized economies had become on a handful of Middle Eastern producers, and triggered a decade of high inflation and slow growth — 'stagflation.' It birthed a lasting habit: using a critical commodity as geopolitical leverage. Importing nations responded by building strategic petroleum reserves, diversifying suppliers, and investing in efficiency and alternatives. Saudi Arabia's swing-producer role, and oil's pricing in dollars ('petrodollars'), also reinforced the dollar's global reserve status. Half a century later, the same logic — concentrated control of a strategic input translating into leverage — reappears in debates over rare earths, semiconductors, and battery minerals.",
+connections:[{id:'geo1',note:'Oil shock reinforced the petrodollar system'},{id:'ind7',note:'Same leverage logic now applies to battery minerals'},{id:'ind4',note:'The energy transition partly responds to oil-shock lessons'}],
+quiz:[{q:"The 1973 oil embargo was triggered by which conflict?",options:["Six-Day War","Yom Kippur War","Iran-Iraq War","Gulf War"],correct:1},
+{q:"What economic condition combined high inflation with slow growth in the 1970s?",options:["Deflation","Stagflation","Hyperinflation","Recession-proofing"],correct:1}]},
+
+{id:'hist3',category:'hist',tag:'1957–70s · Africa',title:'The Decolonization of Africa',
+brief:"Between roughly 1957 (Ghana's independence) and the mid-1970s, most African colonies gained independence, often rapidly and with borders drawn decades earlier by colonial powers with little regard for ethnic, linguistic, or historical boundaries. This legacy of arbitrary borders contributed to conflicts in newly independent states, from Nigeria's Biafra war to ongoing tensions in the Sahel. Newly independent nations faced a Cold War alignment choice, and many opted for non-alignment, seeking aid and trade from both blocs — later China too — without full allegiance to either. Decolonization roughly tripled UN membership and shifted the balance of votes in the General Assembly. Today, many of these same states are central to great-power competition again — as sources of critical minerals, BRI infrastructure recipients, and swing votes in international bodies on issues from Ukraine to trade rules.",
+connections:[{id:'hist5',note:'The Bandung Conference formalized the non-aligned stance many chose'},{id:'geo6',note:'These same states are now central BRI partners'},{id:'ind2',note:'Many hold reserves of critical minerals now geopolitically contested'}],
+quiz:[{q:"Which country is often cited as the first sub-Saharan African nation to gain independence, in 1957?",options:["Nigeria","Ghana","Kenya","Congo"],correct:1},
+{q:"What effect did decolonization have on the UN?",options:["UN dissolved","Roughly tripled UN membership","UN moved to Geneva","Security Council abolished"],correct:1}]},
+
+{id:'ind3',category:'ind',tag:'1956–present · Trade',title:'The Container That Built Globalization',
+brief:"Before the 1950s, loading cargo ships was slow, labor-intensive work — goods handled piece by piece by dockworkers. Malcolm McLean's standardized steel shipping container, introduced in 1956, let cargo be packed once and moved seamlessly between trucks, trains, and ships without unpacking, collapsing port turnaround times and costs so dramatically that it's credited as a key enabler of modern globalization — making it economical to manufacture goods far from where they're consumed. Today's container fleet, some ships carrying over 20,000 boxes, moves the large majority of the world's manufactured goods, funneled through a small number of chokepoint straits and canals (Suez, Panama, Malacca) and mega-ports (Shanghai, Singapore, Rotterdam). This concentration means localized disruptions — a canal blockage, a port strike, a regional conflict — can cascade into global price and availability shocks.",
+connections:[{id:'geo2',note:'Direct dependency on Suez and Bab-el-Mandeb chokepoints'},{id:'ind5',note:'Container shipping is the backbone just-in-time manufacturing relies on'},{id:'hist6',note:'Extends the treaty-port trade logic into the container era'}],
+quiz:[{q:"Who is credited with introducing the standardized shipping container in 1956?",options:["Henry Ford","Malcolm McLean","Aristotle Onassis","Cornelius Vanderbilt"],correct:1},
+{q:"Which of these is NOT typically cited as a major shipping chokepoint?",options:["Suez Canal","Strait of Malacca","Panama Canal","Bering Strait"],correct:3}]},
+
+{id:'geo4',category:'geo',tag:'1991–present · Europe',title:"NATO's Eastward Expansion",
+brief:"Since the Cold War's end, NATO has grown from 16 members in 1991 to over 30 today, admitting former Warsaw Pact states and, more recently, Finland and Sweden. Proponents argue expansion extended stability and democratic norms to Central and Eastern Europe and let sovereign nations freely choose alliances. Critics — including voices within Russia and some Western realist scholars — argue expansion was perceived in Moscow as encroachment on a traditional security buffer, contributing to worsening relations, particularly after the 2008 Bucharest summit signaled eventual membership for Ukraine and Georgia. This debate sits at the heart of arguments over the causes of the 2014 Crimea annexation and 2022 invasion of Ukraine — a live case study in a recurring tension: the right of small states to choose alliances versus a great power's perception of its security perimeter.",
+connections:[{id:'hist1',note:'A direct echo of balance-of-power diplomacy'},{id:'hist4',note:'The Berlin standoff prefigures this same East-West tension'},{id:'ind6',note:'Alliance commitments drive defense-industrial demand'}],
+quiz:[{q:"Roughly how many members did NATO have in 1991 vs. today?",options:["16 vs. 32","10 vs. 20","20 vs. 25","5 vs. 15"],correct:0},
+{q:"Which 2008 summit signaled eventual NATO membership for Ukraine and Georgia?",options:["Lisbon","Bucharest","Madrid","Wales"],correct:1}]},
+
+{id:'hist4',category:'hist',tag:'1948–49 · Cold War',title:'The Berlin Airlift',
+brief:"In June 1948, the Soviet Union blockaded all road, rail, and canal access to West Berlin — an enclave of Western-controlled territory deep inside Soviet-controlled East Germany — attempting to force the Western Allies out of the city. Rather than fight through the blockade, the US and Britain flew in supplies — coal, food, medicine — in a sustained airlift that delivered over 2 million tons of cargo across nearly 300,000 flights over eleven months. The Soviets lifted the blockade in May 1949 without gaining Berlin, hardening the division of Germany into East and West that lasted until 1990. The Airlift is a classic case study in coercion that stops short of war: neither side wanted direct military conflict, so each tested resolve through logistics and endurance rather than combat — a pattern that recurs throughout the Cold War and in today's 'gray zone' competition below the threshold of war.",
+connections:[{id:'hist1',note:'An extension of the same balance-of-power logic into the nuclear age'},{id:'geo4',note:'Prefigures later NATO-Russia tension over Europe'},{id:'hist2',note:'Occurred amid the Marshall Plan-era East-West split'}],
+quiz:[{q:"What year did the Soviet blockade of Berlin begin?",options:["1945","1948","1953","1961"],correct:1},
+{q:"How did the Western Allies respond to the blockade?",options:["A military convoy through it","A sustained airlift of supplies","Immediate withdrawal from Berlin","A nuclear threat"],correct:1}]},
+
+{id:'ind4',category:'ind',tag:'Present · Heavy industry',title:'The Green Steel Transition',
+brief:"Steelmaking causes roughly 7–8% of global CO2 emissions, mostly because the traditional blast-furnace process uses coking coal both as fuel and as the chemical agent that strips oxygen from iron ore. 'Green steel' replaces that role with hydrogen (ideally from renewable electricity), which reacts with iron ore to produce water vapor instead of CO2. Sweden's HYBRIT project and Germany's efforts to convert blast furnaces are among the furthest along, but the transition is capital-intensive — retrofitting a single furnace can cost billions — and depends on cheap, abundant clean hydrogen that doesn't yet exist at scale. It has geopolitical stakes too: the EU's Carbon Border Adjustment Mechanism will tax imports based on carbon footprint, effectively penalizing steel from countries that don't decarbonize, reshaping trade flows and pressuring producers in China, India, and elsewhere.",
+connections:[{id:'geo3',note:'Part of the broader energy-transition response to oil-shock lessons'},{id:'ind6',note:'Steel is a core input to shipbuilding and defense-industrial capacity'},{id:'ind7',note:'Shares the same clean-energy infrastructure buildout as battery supply chains'}],
+quiz:[{q:"What does green steel use instead of coking coal to reduce iron ore?",options:["Natural gas","Hydrogen","Electricity alone","Charcoal"],correct:1},
+{q:"What EU policy taxes imports based on carbon footprint?",options:["Green Deal Tariff","Carbon Border Adjustment Mechanism","Emissions Trading Scheme alone","Paris Tax Protocol"],correct:1}]},
+
+{id:'geo5',category:'geo',tag:'Maritime dispute · Asia',title:'The South China Sea',
+brief:"China claims sovereignty over most of the South China Sea via the 'nine-dash line,' overlapping with claims from Vietnam, the Philippines, Malaysia, Brunei, and Taiwan. The sea carries roughly a third of global maritime trade and sits atop disputed fishing grounds and potential oil and gas reserves. Beijing has built and militarized artificial islands atop reefs, while a 2016 international tribunal ruling (brought by the Philippines) rejected the legal basis of the nine-dash line — a ruling China does not recognize. The dispute is entangled with the Taiwan question, since the same waters carry the shipping lanes serving Taiwan's semiconductor industry, and with US-China rivalry, as Washington conducts 'freedom of navigation' patrols to contest Chinese claims — a clean example of how one geography links multiple industries and rivalries at once.",
+connections:[{id:'ind1',note:'Taiwan Strait shipping lanes carry global chip exports'},{id:'geo2',note:'Another maritime chokepoint dispute'},{id:'hist7',note:'Colonial-era boundary-drawing echoes in territorial disputes'}],
+quiz:[{q:"What is China's territorial claim in the South China Sea commonly called?",options:["Red Line","Nine-Dash Line","Blue Water Doctrine","Silk Road Line"],correct:1},
+{q:"Roughly what share of global maritime trade passes through the South China Sea?",options:["5%","15%","33%","60%"],correct:2}]},
+
+{id:'hist5',category:'hist',tag:'1955–61 · Global South',title:'Bandung & the Non-Aligned Movement',
+brief:"In 1955, representatives from 29 newly independent Asian and African states met in Bandung, Indonesia, to chart a path independent of both Cold War blocs. Leaders like India's Nehru, Indonesia's Sukarno, and Egypt's Nasser argued that formerly colonized nations shared interests distinct from either superpower's agenda — development, sovereignty, and opposition to colonialism generally. The conference laid groundwork for the Non-Aligned Movement, formally founded in 1961, which at its peak included well over 100 member states. In practice, non-alignment was often more aspirational than absolute — many members leaned toward one bloc depending on immediate interests — but the idea that developing nations constitute a distinct bloc with shared leverage persists today in groupings like BRICS and the G77, and in how countries like India now court both the US and Russia simultaneously rather than choosing a single side.",
+connections:[{id:'hist3',note:'Directly followed the wave of African decolonization'},{id:'geo7',note:'Non-alignment logic echoes in states trading with both sides today'},{id:'geo6',note:'Modern equivalent is visible in BRI-recipient diplomacy'}],
+quiz:[{q:"In what year was the Bandung Conference held?",options:["1945","1955","1961","1975"],correct:1},
+{q:"Which movement did Bandung help found, formalized in 1961?",options:["European Union","Non-Aligned Movement","Warsaw Pact","OPEC"],correct:1}]},
+
+{id:'ind5',category:'ind',tag:'Present · Manufacturing',title:'Just-in-Time & Its Fragility',
+brief:"Just-in-time (JIT) manufacturing, pioneered by Toyota, minimizes inventory by having parts arrive exactly when needed rather than sitting in warehouses — cutting storage costs and waste. It became the global manufacturing default for decades, prized for efficiency. But JIT's weakness is fragility: with little buffer stock, a disruption anywhere in a long, specialized supply chain can halt production everywhere downstream. COVID-19 exposed this starkly — a shortage of automotive semiconductor chips, caused partly by factory shutdowns and shifting demand, idled car plants worldwide for over a year, even though chips are a small fraction of a car's cost. Many companies have since shifted toward 'just-in-case' strategies: holding more buffer inventory, diversifying suppliers across countries ('friend-shoring' or 'China-plus-one'), and in some cases reshoring production closer to home, trading efficiency for resilience against future shocks.",
+connections:[{id:'ind1',note:'The automotive chip shortage was a direct symptom of this fragility'},{id:'ind3',note:'Container shipping congestion during COVID was a key stress point'},{id:'geo6',note:'Friend-shoring is partly a hedge against BRI-linked dependency'}],
+quiz:[{q:"Which company pioneered just-in-time manufacturing?",options:["Ford","Toyota","General Motors","Honda"],correct:1},
+{q:"What term describes diversifying suppliers to reduce reliance on one country?",options:["Reshoring only","Friend-shoring / China-plus-one","Offshoring","Vertical integration"],correct:1}]},
+
+{id:'geo6',category:'geo',tag:'2013–present · Infrastructure',title:'The Belt and Road Initiative',
+brief:"Launched by China in 2013, the Belt and Road Initiative (BRI) is a global infrastructure and investment program spanning ports, railways, pipelines, and power plants across roughly 150 countries. It gives Chinese state banks and construction firms new export markets and gives recipient countries financing outside traditional Western-led institutions like the IMF and World Bank. Supporters point to real infrastructure gaps filled in Africa, Central Asia, and Southeast Asia. Critics point to 'debt-trap' concerns — most visibly Sri Lanka's 2017 lease of Hambantota Port to a Chinese state firm after struggling to service BRI-related debt — and to projects that boost Chinese strategic access to ports and resources. BRI is best understood as statecraft as much as development finance: it builds relationships, market access, and infrastructure leverage simultaneously, echoing how the Marshall Plan combined reconstruction aid with building a US-aligned economic bloc after 1945.",
+connections:[{id:'hist2',note:'Mirrors Marshall Plan logic of aid-as-influence'},{id:'ind2',note:'BRI secures access to resource-rich supplier nations'},{id:'hist3',note:'Many recipient nations emerged from decolonization'}],
+quiz:[{q:"In what year did China launch the Belt and Road Initiative?",options:["2001","2008","2013","2020"],correct:2},
+{q:"Which port became a symbol of 'debt-trap' concerns after Sri Lanka leased it to a Chinese firm?",options:["Mombasa","Hambantota","Gwadar","Djibouti"],correct:1}]},
+
+{id:'hist6',category:'hist',tag:'1839–1949 · China',title:'The Opium Wars & Treaty Ports',
+brief:"Britain fought two wars against Qing China (1839–42 and 1856–60) after China tried to halt British merchants' opium trade, which had caused widespread addiction and a drain of Chinese silver. China's defeat led to a series of 'unequal treaties' that ceded Hong Kong to Britain, opened 'treaty ports' like Shanghai to foreign trade on foreign-favorable terms, and granted foreign powers extraterritorial legal rights within China. This era — remembered in China as the start of the 'Century of Humiliation,' running through Japanese occupation until 1949 — remains a live reference point in Chinese political rhetoric about sovereignty and foreign interference, and is essential context for why contemporary Chinese policy places such emphasis on technological self-sufficiency, control of trade routes, and resistance to what Beijing frames as Western attempts to constrain its rise — including today's chip export controls.",
+connections:[{id:'ind1',note:'China frames semiconductor export controls through this historical lens'},{id:'geo2',note:'Treaty ports were built around the same trade-route logic as modern chokepoints'},{id:'geo6',note:'BRI is partly framed domestically as reversing this historical imbalance'}],
+quiz:[{q:"What commodity triggered the Opium Wars?",options:["Tea","Opium","Silk","Silver"],correct:1},
+{q:"What term does China use to describe the era from the Opium Wars to 1949?",options:["Golden Age","Century of Humiliation","Warring States","Great Leap"],correct:1}]},
+
+{id:'ind6',category:'ind',tag:'Present · Defense',title:'The Defense Industrial Base',
+brief:"A country's 'defense industrial base' — the factories, shipyards, and supply chains that produce weapons and military equipment — matters as much in peacetime deterrence as in wartime production. Recent conflicts have exposed real gaps: Western artillery shell production struggled to keep pace with usage rates in the Russia-Ukraine war, and US Navy shipbuilding capacity has shrunk dramatically since the Cold War, with far fewer active shipyards able to build and maintain warships compared to China's vastly larger commercial and naval shipbuilding industry. Rebuilding this capacity isn't quick: skilled welders, specialized suppliers, and shipyard capacity all take years to scale, unlike software or even semiconductors, which can sometimes be accelerated with capital alone. Industrial capacity itself has become a strategic metric analysts track alongside troop numbers and weapons stockpiles.",
+connections:[{id:'geo1',note:'Dollar and defense capacity are twin pillars of postwar US power'},{id:'ind4',note:'Steel capacity underlies shipbuilding and heavy defense manufacturing'},{id:'geo4',note:'NATO commitments directly drive demand for defense-industrial output'}],
+quiz:[{q:"What conflict exposed gaps in Western artillery shell production?",options:["Gulf War","Russia-Ukraine war","Falklands War","Korean War"],correct:1},
+{q:"What has shrunk dramatically in the US since the Cold War, relative to China's capacity?",options:["Software firms","Shipbuilding capacity","Airline fleets","University research labs"],correct:1}]},
+
+{id:'geo7',category:'geo',tag:'Present · Statecraft',title:'Sanctions as a Weapon',
+brief:"Sanctions — trade restrictions, asset freezes, and financial cutoffs — have become a primary tool short of war for pressuring states like Iran, Russia, and North Korea. Their power stems largely from the dollar's role in global finance and the SWIFT messaging system banks use internationally; cutting a country off from these networks can cripple its ability to trade even with willing partners. Effectiveness varies widely: Iran's economy shrank sharply under sanctions but its nuclear program continued regardless, while extensive Western sanctions on Russia after 2022 caused disruption but not collapse, partly because Russia redirected trade toward China and India. A key side effect: heavily sanctioned states actively build workarounds — alternative payment systems, barter, deeper trade with non-Western partners — which some analysts argue is slowly eroding the dollar's centrality, accelerating a broader 'de-dollarization' conversation, particularly among BRICS nations.",
+connections:[{id:'geo1',note:'Built on the dollar-centered system created after Bretton Woods'},{id:'ind2',note:'Rare-earth export controls are a form of counter-sanction'},{id:'geo6',note:'Sanctioned states lean on BRI-linked partners to route around restrictions'}],
+quiz:[{q:"What financial messaging system's removal is a common escalation in sanctions regimes?",options:["SWIFT","FEDWIRE","ACH","Bloomberg Terminal"],correct:0},
+{q:"Which two countries did Russia notably redirect trade toward after 2022 sanctions?",options:["Brazil and Egypt","China and India","Japan and South Korea","Germany and France"],correct:1}]},
+
+{id:'hist7',category:'hist',tag:'1916–1920s · Middle East',title:'Sykes-Picot & the Fall of the Ottomans',
+brief:"The Ottoman Empire, which had ruled much of the Middle East for centuries, collapsed after backing the losing side in World War I. In a secret 1916 agreement, Britain and France (with Russian assent) drew lines across the empire's Arab territories — the Sykes-Picot Agreement — carving out zones of future control with little regard for existing ethnic, religious, or tribal boundaries. The postwar mandate system formalized much of this, creating states like Iraq, Syria, Lebanon, and Jordan whose borders often grouped rival communities together or split cohesive ones apart. Many of the region's most persistent conflicts — including Iraq's sectarian tensions and disputes over Kurdish statehood — trace partly to these externally imposed boundaries. Sykes-Picot has become political shorthand across the Middle East for illegitimate imposed borders, invoked by groups from Arab nationalists to ISIS as a symbol of colonial-era imposition still shaping regional politics.",
+connections:[{id:'geo5',note:'Colonial border-drawing echoes in today\'s territorial disputes'},{id:'hist6',note:'A parallel case of imperial powers redrawing a declining empire\'s territory'},{id:'geo7',note:'Iraq, Syria, and Iran sanctions regimes trace back to this fractured order'}],
+quiz:[{q:"Which two powers signed the secret 1916 agreement dividing Ottoman Arab territories?",options:["Britain and Germany","Britain and France","France and Russia","US and Britain"],correct:1},
+{q:"Which modern states emerged partly from this post-Ottoman mandate system?",options:["Egypt and Libya","Iraq, Syria, Lebanon, Jordan","Saudi Arabia and Yemen","Turkey and Greece"],correct:1}]},
+
+{id:'ind7',category:'ind',tag:'Present · Critical minerals',title:'The Lithium Triangle & Battery Supply Chains',
+brief:"Electric vehicle batteries depend on a concentrated set of minerals — lithium, cobalt, nickel, and graphite — whose supply chains echo the rare-earth story in some ways and diverge in others. Roughly 60% of global lithium reserves sit in the 'Lithium Triangle' of Argentina, Bolivia, and Chile, while over 70% of cobalt is mined in the Democratic Republic of Congo, often under conditions that have drawn scrutiny over labor practices and small-scale 'artisanal' mining safety. Even where mining is diversified, China dominates downstream battery-material processing and cell manufacturing, similar to its rare-earth position, giving it outsized influence over global EV supply chains regardless of where raw minerals originate. Western governments have responded with subsidies for domestic and allied-country processing and new mining and recycling investment, but building competitive alternative processing capacity is a multi-year undertaking, not a policy switch that flips overnight.",
+connections:[{id:'ind2',note:"Mirrors rare earths in China's downstream processing dominance"},{id:'geo3',note:'Part of the energy transition that followed 1970s oil-shock lessons'},{id:'hist3',note:"DRC's mining conditions trace partly to its colonial and post-independence history"}],
+quiz:[{q:"Which three countries make up the 'Lithium Triangle'?",options:["Chile, Peru, Ecuador","Argentina, Bolivia, Chile","Brazil, Argentina, Uruguay","Mexico, Chile, Peru"],correct:1},
+{q:"Which country produces over 70% of the world's cobalt?",options:["Australia","Democratic Republic of Congo","Indonesia","Russia"],correct:1}]}
+];
+
+const CAT_INFO = {
+  geo:{label:'Geopolitics', color:'var(--clay)', tagClass:'tag-geo'},
+  hist:{label:'History', color:'var(--moss)', tagClass:'tag-hist'},
+  ind:{label:'Industrials', color:'var(--steel)', tagClass:'tag-ind'},
+  custom:{label:'Your Log', color:'var(--brass)', tagClass:'tag-custom'}
+};
+
+const STORAGE_KEY = 'dossier-state-v1';
+
+function todayStr(d){ d = d || new Date(); return d.toISOString().slice(0,10); }
+function dayIndex(){
+  const epoch = new Date('2026-01-01T00:00:00Z');
+  const now = new Date();
+  const diffDays = Math.floor((Date.UTC(now.getFullYear(),now.getMonth(),now.getDate()) - epoch.getTime())/86400000);
+  return ((diffDays % TOPICS.length) + TOPICS.length) % TOPICS.length;
+}
+function topicById(id){ return TOPICS.find(t=>t.id===id); }
+
+let STATE = {
+  completed:{},        // topicId -> dateStr
+  notesByTopic:{},      // topicId -> text
+  quizByTopic:{},        // topicId -> [selectedIdx,...]
+  customEvents:[],       // {id,title,category,notes,date}
+  streak:{lastDate:null,current:0,longest:0}
+};
+let activeTopicId = TOPICS[dayIndex()].id;
+let ledgerFilter = 'all';
+let WIRE = []; // populated from data/log.json, generated daily by the GitHub Action
+
+async function loadWire(){
+  try{
+    const res = await fetch('data/log.json', {cache:'no-store'});
+    if(res.ok){ WIRE = await res.json(); }
+  }catch(e){ console.warn('Could not load data/log.json yet — the daily Action may not have run.', e); }
+}
+
+async function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(raw){
+      const parsed = JSON.parse(raw);
+      STATE = Object.assign(STATE, parsed);
+    }
+  }catch(e){ console.warn('No saved state yet, or storage unavailable in this browser.', e); }
+}
+async function saveState(){
+  try{
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE));
+  }catch(e){ console.error('Save failed — your browser may be blocking local storage for this file.', e); }
+}
+
+function markComplete(topicId){
+  const t = todayStr();
+  STATE.completed[topicId] = t;
+  updateStreak(t);
+  saveState();
+  render();
+}
+function updateStreak(dateStr){
+  const s = STATE.streak;
+  if(s.lastDate === dateStr) return;
+  const y = new Date(dateStr);
+  y.setDate(y.getDate()-1);
+  const yesterday = todayStr(y);
+  if(s.lastDate === yesterday){ s.current += 1; } else { s.current = 1; }
+  s.longest = Math.max(s.longest, s.current);
+  s.lastDate = dateStr;
+}
+
+function saveNote(topicId, text){
+  STATE.notesByTopic[topicId] = text;
+  saveState();
+}
+
+function answerQuiz(topicId, qIdx, optIdx){
+  if(!STATE.quizByTopic[topicId]) STATE.quizByTopic[topicId] = [];
+  STATE.quizByTopic[topicId][qIdx] = optIdx;
+  saveState();
+  render();
+}
+
+function addCustomEvent(title, category, notes){
+  const entry = {id:'custom-'+Date.now(), title, category, notes, date: todayStr()};
+  STATE.customEvents.push(entry);
+  updateStreak(todayStr());
+  saveState();
+  render();
+}
+
+function escapeHtml(s){
+  return (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderMasthead(){
+  const totalTopics = TOPICS.length;
+  const doneCount = Object.keys(STATE.completed).length;
+  const dateLabel = new Date().toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'});
+  return `
+  <div class="masthead">
+    <div>
+      <h1 class="masthead-title">The Dossier</h1>
+      <div class="masthead-sub">${dateLabel} — Daily Briefing</div>
+    </div>
+    <div class="masthead-stats">
+      <div><span class="mstat-num">${STATE.streak.current}</span><span class="mstat-label">Day streak</span></div>
+      <div><span class="mstat-num">${doneCount}/${totalTopics}</span><span class="mstat-label">Briefings read</span></div>
+      <div><span class="mstat-num">${STATE.streak.longest}</span><span class="mstat-label">Best streak</span></div>
+    </div>
+  </div>`;
+}
+
+function renderTopicSelector(){
+  const groups = {geo:[],hist:[],ind:[]};
+  TOPICS.forEach(t=>groups[t.category].push(t));
+  let opts = '';
+  ['geo','hist','ind'].forEach(cat=>{
+    opts += `<optgroup label="${CAT_INFO[cat].label}">`;
+    groups[cat].forEach(t=>{
+      opts += `<option value="${t.id}" ${t.id===activeTopicId?'selected':''}>${STATE.completed[t.id]?'✓ ':''}${escapeHtml(t.title)}</option>`;
+    });
+    opts += `</optgroup>`;
+  });
+  const todaysId = TOPICS[dayIndex()].id;
+  return `
+  <div class="select-row">
+    <label class="field-label" style="margin-top:0;color:var(--text-dark-muted)">Browse briefings:</label>
+    <select id="topic-select" onchange="window.__setActive(this.value)">${opts}</select>
+    ${activeTopicId!==todaysId ? `<button class="secondary small" onclick="window.__setActive('${todaysId}')">Back to today</button>` : ''}
+  </div>`;
+}
+
+function renderBriefingCard(){
+  const t = topicById(activeTopicId);
+  const info = CAT_INFO[t.category];
+  const isDone = !!STATE.completed[t.id];
+  const note = STATE.notesByTopic[t.id] || '';
+  return `
+  <div class="card">
+    ${renderTopicSelector()}
+    <div class="topic-meta">
+      <span class="tag ${info.tagClass}">${info.label}</span>
+      <span class="topic-era">${escapeHtml(t.tag)}</span>
+    </div>
+    <h2 class="topic-title">${escapeHtml(t.title)}</h2>
+    <div class="topic-brief"><p>${escapeHtml(t.brief)}</p></div>
+    <div class="divider"></div>
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;">
+      ${isDone ? `<span class="done-badge">✓ Reviewed ${STATE.completed[t.id]}</span>` : `<button onclick="window.__markDone('${t.id}')">Mark as reviewed</button>`}
+    </div>
+    <label class="field-label">Your notes on this topic</label>
+    <textarea id="note-${t.id}" placeholder="What's your takeaway? How does this connect to something you already knew?">${escapeHtml(note)}</textarea>
+    <div style="margin-top:8px;"><button class="secondary small" onclick="window.__saveNote('${t.id}')">Save note</button></div>
+  </div>`;
+}
+
+function renderQuizCard(){
+  const t = topicById(activeTopicId);
+  const answers = STATE.quizByTopic[t.id] || [];
+  let correctCount = 0, answeredCount = 0;
+  let qHtml = '';
+  t.quiz.forEach((q, qi)=>{
+    const selected = answers[qi];
+    if(selected !== undefined){ answeredCount++; if(selected===q.correct) correctCount++; }
+    let optsHtml = '';
+    q.options.forEach((opt,oi)=>{
+      let cls = 'quiz-opt';
+      if(selected !== undefined){
+        if(oi===q.correct) cls += ' correct';
+        else if(oi===selected) cls += ' wrong';
+      }
+      optsHtml += `<button class="${cls}" onclick="window.__answerQuiz('${t.id}',${qi},${oi})" ${selected!==undefined?'disabled':''}>${escapeHtml(opt)}</button>`;
+    });
+    qHtml += `<div class="quiz-q"><div class="quiz-q-text">${qi+1}. ${escapeHtml(q.q)}</div><div class="quiz-opts">${optsHtml}</div></div>`;
+  });
+  return `
+  <div class="card">
+    <h3 style="font-family:'Fraunces',serif;margin:0 0 4px 0;color:var(--text-dark);font-size:1.15rem;">Quick check</h3>
+    <div class="quiz-score">${answeredCount>0 ? `${correctCount}/${answeredCount} answered correctly` : 'Test what you just read'}</div>
+    <div class="divider"></div>
+    ${qHtml}
+  </div>`;
+}
+
+function renderConnections(){
+  const t = topicById(activeTopicId);
+  const conns = t.connections;
+  const cx = 250, cy = 190, r = 34;
+  const positions = conns.map((c,i)=>{
+    const angle = -Math.PI/2 + (i - (conns.length-1)/2) * (Math.PI/2.6);
+    const dist = 150;
+    return {x: cx + dist*Math.sin(angle), y: cy - dist*Math.cos(angle)*0.55 + 40, conn:c};
+  });
+  let linesHtml = '';
+  let nodesHtml = '';
+  positions.forEach(p=>{
+    const ct = topicById(p.conn.id);
+    const midX = (cx+p.x)/2, midY = (cy+p.y)/2 - 18;
+    linesHtml += `<path d="M ${cx} ${cy} Q ${midX} ${midY} ${p.x} ${p.y}" stroke="var(--clay)" stroke-width="1.5" fill="none" opacity="0.75" stroke-dasharray="1 0"/>`;
+    const info = CAT_INFO[ct.category];
+    nodesHtml += `
+      <g class="conn-node" onclick="window.__setActive('${ct.id}')">
+        <circle class="conn-node-circle" cx="${p.x}" cy="${p.y}" r="26" fill="${info.color}" stroke="var(--ink)" stroke-width="1.5"/>
+        <text x="${p.x}" y="${p.y+4}" text-anchor="middle" class="conn-label" font-weight="600">${escapeHtml(info.label.slice(0,4).toUpperCase())}</text>
+        ${wrapSvgText(ct.title, p.x, p.y+40, 90)}
+        ${wrapSvgText(p.conn.note, p.x, p.y+40+ (Math.ceil(ct.title.length/16)*12), 95, true)}
+      </g>`;
+  });
+  return `
+  <div class="panel">
+    <h3>Connect the Dots</h3>
+    <div class="panel-sub">How today's topic threads into others</div>
+    <svg viewBox="0 0 500 340" style="width:100%;height:auto;">
+      ${linesHtml}
+      <circle cx="${cx}" cy="${cy}" r="30" fill="var(--brass)" stroke="var(--ink)" stroke-width="2"/>
+      <text x="${cx}" y="${cy+4}" text-anchor="middle" class="conn-label" font-weight="700" fill="var(--ink)">TODAY</text>
+      ${wrapSvgText(t.title, cx, cy+50, 100)}
+      ${nodesHtml}
+    </svg>
+    <div class="panel-sub" style="margin-top:8px;">Click a node to jump to that briefing</div>
+  </div>`;
+}
+function wrapSvgText(text, x, y, maxCharsPerLine, italic){
+  const words = text.split(' ');
+  let lines = [], cur = '';
+  words.forEach(w=>{
+    if((cur+' '+w).trim().length > 16){ lines.push(cur.trim()); cur = w; }
+    else { cur = (cur+' '+w).trim(); }
+  });
+  if(cur) lines.push(cur);
+  lines = lines.slice(0,2);
+  return lines.map((line,i)=>`<text x="${x}" y="${y+i*12}" text-anchor="middle" class="${italic?'conn-note':'conn-label'}">${escapeHtml(line)}</text>`).join('');
+}
+
+function renderWire(){
+  if(WIRE.length === 0){
+    return `
+    <div class="panel">
+      <h3>Today's Wire</h3>
+      <div class="panel-sub">Auto-pulled headlines</div>
+      <div class="ledger-empty">No wire data yet. It fills in after the daily GitHub Action runs — trigger it manually from the Actions tab to test.</div>
+    </div>`;
+  }
+  const latest = WIRE[0];
+  const rows = latest.items.map(item=>{
+    const info = CAT_INFO[item.category] || CAT_INFO.geo;
+    return `
+    <div class="ledger-row">
+      <span class="tag ${info.tagClass}" style="font-size:0.6rem;">${info.label}</span>
+      <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="ledger-title" style="flex:1;color:var(--paper);text-decoration:none;">${escapeHtml(item.headline)}</a>
+    </div>`;
+  }).join('');
+  return `
+  <div class="panel">
+    <h3>Today's Wire</h3>
+    <div class="panel-sub">Auto-pulled from RSS — ${latest.date}</div>
+    <div>${rows}</div>
+    <div class="panel-sub" style="margin-top:10px;">Tip: paste any of these into a Claude chat for a quick "why this matters" analysis — free with your existing account.</div>
+  </div>`;
+}
+
+function renderCustomForm(){
+  return `
+  <div class="panel">
+    <h3>Log a current event</h3>
+    <div class="panel-sub">Bring in something you read in the news today</div>
+    <label class="field-label">Headline / topic</label>
+    <input type="text" id="ce-title" placeholder="e.g. New export controls announced" style="width:100%;">
+    <label class="field-label">Category</label>
+    <select id="ce-category" style="width:100%;">
+      <option value="geo">Geopolitics</option>
+      <option value="hist">History</option>
+      <option value="ind">Industrials</option>
+    </select>
+    <label class="field-label">Your notes</label>
+    <textarea id="ce-notes" placeholder="What happened, and why does it matter?"></textarea>
+    <div style="margin-top:10px;"><button onclick="window.__addCustom()">Add to dossier</button></div>
+  </div>`;
+}
+
+function renderLedger(){
+  const catCounts = {geo:0,hist:0,ind:0,custom:0};
+  let entries = [];
+  Object.keys(STATE.completed).forEach(id=>{
+    const t = topicById(id);
+    if(!t) return;
+    catCounts[t.category]++;
+    entries.push({title:t.title, category:t.category, date:STATE.completed[id]});
+  });
+  STATE.customEvents.forEach(e=>{
+    catCounts.custom++;
+    entries.push({title:e.title, category:e.category, date:e.date, custom:true});
+  });
+  entries.sort((a,b)=> a.date < b.date ? 1 : -1);
+  if(ledgerFilter !== 'all'){
+    entries = entries.filter(e=> (ledgerFilter==='custom' ? e.custom : e.category===ledgerFilter));
+  }
+  const filters = ['all','geo','hist','ind','custom'];
+  const filterHtml = filters.map(f=>{
+    const label = f==='all' ? 'All' : CAT_INFO[f].label;
+    return `<button class="filter-btn ${ledgerFilter===f?'active':''}" onclick="window.__setFilter('${f}')">${label}</button>`;
+  }).join('');
+  const rows = entries.length ? entries.map(e=>{
+    const info = CAT_INFO[e.custom ? 'custom' : e.category];
+    return `<div class="ledger-row">
+      <span class="tag ${info.tagClass}" style="font-size:0.6rem;">${info.label}</span>
+      <span class="ledger-title" style="flex:1;">${escapeHtml(e.title)}</span>
+      <span class="ledger-date">${e.date}</span>
+    </div>`;
+  }).join('') : `<div class="ledger-empty">Nothing logged yet in this category.</div>`;
+
+  return `
+  <div class="panel">
+    <h3>The Ledger</h3>
+    <div class="panel-sub">Your accumulating knowledge base</div>
+    <div class="statbar">
+      <div class="statbar-item"><b>${catCounts.geo}</b> geopolitics</div>
+      <div class="statbar-item"><b>${catCounts.hist}</b> history</div>
+      <div class="statbar-item"><b>${catCounts.ind}</b> industrials</div>
+      <div class="statbar-item"><b>${catCounts.custom}</b> self-logged</div>
+    </div>
+    <div class="filter-row">${filterHtml}</div>
+    <div>${rows}</div>
+  </div>`;
+}
+
+function render(){
+  document.getElementById('app').innerHTML = `
+    ${renderMasthead()}
+    <div class="grid">
+      <div>
+        ${renderBriefingCard()}
+        ${renderQuizCard()}
+      </div>
+      <div>
+        ${renderWire()}
+        ${renderConnections()}
+        ${renderCustomForm()}
+        ${renderLedger()}
+      </div>
+    </div>
+  `;
+}
+
+window.__setActive = (id)=>{ activeTopicId = id; render(); };
+window.__markDone = (id)=>{ markComplete(id); };
+window.__saveNote = (id)=>{
+  const val = document.getElementById('note-'+id).value;
+  saveNote(id, val);
+  const btn = event.target;
+  const old = btn.textContent;
+  btn.textContent = 'Saved ✓';
+  setTimeout(()=>{ btn.textContent = old; }, 1200);
+};
+window.__answerQuiz = (id,qi,oi)=>{ answerQuiz(id,qi,oi); };
+window.__addCustom = ()=>{
+  const title = document.getElementById('ce-title').value.trim();
+  const category = document.getElementById('ce-category').value;
+  const notes = document.getElementById('ce-notes').value.trim();
+  if(!title){ return; }
+  addCustomEvent(title, category, notes);
+};
+window.__setFilter = (f)=>{ ledgerFilter = f; render(); };
+
+(async function init(){
+  await Promise.all([loadState(), loadWire()]);
+  render();
+})();
+</script>
+</body>
+</html>
