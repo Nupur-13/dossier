@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "date": "2026-07-24",
+    "items": [
+      {
+        "headline": "Tens of thousands evacuated from French tourist spot and near Madrid as wildfires spread",
+        "url": "https://www.bbc.co.uk/news/articles/cdx82rl5g0do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US hits dozens of countries with new wave of tariffs",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "US and Iran trade more strikes in Gulf as fears of escalation mount",
+        "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Oil prices hit $100 for the first time since May",
+        "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Legend of the Gibbet",
+        "url": "https://www.historytoday.com/archive/history-matters/legend-gibbet",
+        "category": "hist"
+      },
+      {
+        "headline": "Indonesian babies were trafficked to Singapore. What happens to them now?",
+        "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Faisal Islam: The UK's Trump trade deal no longer looks world-beating",
+        "url": "https://www.bbc.co.uk/news/articles/c9v4ymwddwgo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  }
+]
