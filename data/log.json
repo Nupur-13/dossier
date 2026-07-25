@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-07-25",
+    "items": [
+      {
+        "headline": "Trump takes swipes at press during White House Correspondents' Dinner",
+        "url": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
+        "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
+        "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
+        "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ten killed in Russian attack on drone exhibition near Kyiv",
+        "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "Four Palestinians and two Israelis killed in West Bank shooting",
+        "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US hits dozens of countries with new wave of tariffs",
+        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-07-24",
     "items": [
       {
