@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-07-28",
+    "items": [
+      {
+        "headline": "Wildfires in south-west France flare up as region braces for new 40C heatwave",
+        "url": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "French Navy carries out 'shooting drill' mid interview",
+        "url": "https://www.bbc.co.uk/news/articles/cy4ker2y1mko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "Uefa reacts with fury to Infantino World Cup plan",
+        "url": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "India Successfully Tests Kusha Long-range Surface-to-Air Missile",
+        "url": "https://thediplomat.com/2026/07/india-successfully-tests-kusha-long-range-surface-to-air-missile/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Legend of the Gibbet",
+        "url": "https://www.historytoday.com/archive/history-matters/legend-gibbet",
+        "category": "hist"
+      },
+      {
+        "headline": "Mysterious deaths of 14 elephants in Kenya prompts urgent inquiry",
+        "url": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Some parents on benefits to be offered up to £4,500 for child starting apprenticeship",
+        "url": "https://www.bbc.co.uk/news/articles/cwy4v6e9d2go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "items": [
       {
