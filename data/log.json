@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-07-29",
+    "items": [
+      {
+        "headline": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
+        "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Sri Lanka’s Tariff Concession May Carry a Diplomatic Cost With China",
+        "url": "https://thediplomat.com/2026/07/sri-lankas-tariff-concession-may-carry-a-diplomatic-cost-with-china/",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
+        "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Uzbekistan Launches Its First Tax-Free Crypto Mining Zone",
+        "url": "https://thediplomat.com/2026/07/uzbekistan-launches-its-first-tax-free-crypto-mining-zone/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Legend of the Gibbet",
+        "url": "https://www.historytoday.com/archive/history-matters/legend-gibbet",
+        "category": "hist"
+      },
+      {
+        "headline": "Thousands in Spain return home but new heatwave raises wildfire fears",
+        "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Some tech shares are plunging - what does that mean for the AI revolution?",
+        "url": "https://www.bbc.co.uk/news/articles/cevm09wkgz0o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-07-28",
     "items": [
       {
