@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-07-30",
+    "items": [
+      {
+        "headline": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+        "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Interest rates expected to be held again by Bank of England",
+        "url": "https://www.bbc.co.uk/news/articles/cp8e6m4rndgo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+        "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "What happens here has a big impact on your money",
+        "url": "https://www.bbc.co.uk/news/videos/ckg4jxwkn2lo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Legend of the Gibbet",
+        "url": "https://www.historytoday.com/archive/history-matters/legend-gibbet",
+        "category": "hist"
+      },
+      {
+        "headline": "Three Greek firefighters die as wildfires threaten parts of southern Europe",
+        "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Burnham says nuclear sub investment will protect UK and boost jobs",
+        "url": "https://www.bbc.co.uk/news/articles/crl70x0nxr9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-07-29",
     "items": [
       {
