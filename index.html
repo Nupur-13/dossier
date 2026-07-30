@@ -78,8 +78,23 @@ body{
 .mstat-label{color:var(--text-muted);text-transform:uppercase;letter-spacing:0.08em;font-size:0.65rem;}
 
 /* ---------- LAYOUT ---------- */
-.grid{display:grid;grid-template-columns:1.6fr 1fr;gap:20px;align-items:start;}
-@media (max-width:820px){.grid{grid-template-columns:1fr;}}
+.grid{display:grid;grid-template-columns:1.7fr 1fr;gap:20px;align-items:start;}
+@media (max-width:900px){.grid{grid-template-columns:1fr;}}
+
+.wire-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:4px;}
+@media (max-width:700px){.wire-grid{grid-template-columns:1fr;}}
+.wire-subcol{background:rgba(0,0,0,0.18);border-radius:3px;padding:14px;min-height:140px;}
+.wire-subcol-head{margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--ink-line);}
+.wire-item{display:block;color:var(--paper);text-decoration:none;font-size:0.87rem;line-height:1.4;padding:9px 0;border-bottom:1px solid var(--ink-line);}
+.wire-item:last-child{border-bottom:none;}
+.wire-item:hover{color:var(--brass);}
+.wire-head-row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:2px;}
+
+.ledger-section{margin-top:22px;display:grid;grid-template-columns:320px 1fr;gap:20px;align-items:start;}
+@media (max-width:820px){.ledger-section{grid-template-columns:1fr;}}
+.ledger-list{max-height:600px;overflow-y:auto;padding-right:6px;}
+.ledger-list .ledger-row{padding:13px 4px;}
+.ledger-search{width:100%;margin-bottom:12px;}
 
 .card{
   background:var(--paper);
@@ -378,12 +393,14 @@ let STATE = {
 };
 let activeTopicId = TOPICS[dayIndex()].id;
 let ledgerFilter = 'all';
+let ledgerSearch = '';
+let activeWireDate = null;
 let WIRE = []; // populated from data/log.json, generated daily by the GitHub Action
 
 async function loadWire(){
   try{
     const res = await fetch('data/log.json', {cache:'no-store'});
-    if(res.ok){ WIRE = await res.json(); }
+    if(res.ok){ WIRE = await res.json(); if(WIRE.length){ activeWireDate = WIRE[0].date; } }
   }catch(e){ console.warn('Could not load data/log.json yet — the daily Action may not have run.', e); }
 }
 
@@ -593,21 +610,30 @@ function renderWire(){
       <div class="ledger-empty">No wire data yet. It fills in after the daily GitHub Action runs — trigger it manually from the Actions tab to test.</div>
     </div>`;
   }
-  const latest = WIRE[0];
-  const rows = latest.items.map(item=>{
-    const info = CAT_INFO[item.category] || CAT_INFO.geo;
+  const entry = WIRE.find(w=>w.date===activeWireDate) || WIRE[0];
+  const dateOptions = WIRE.map(w=>`<option value="${w.date}" ${w.date===entry.date?'selected':''}>${w.date}</option>`).join('');
+  const cats = ['geo','hist','ind'];
+  const colsHtml = cats.map(cat=>{
+    const info = CAT_INFO[cat];
+    const items = entry.items.filter(i=>i.category===cat);
+    const rows = items.length ? items.map(item=>`
+      <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="wire-item">${escapeHtml(item.headline)}</a>
+    `).join('') : `<div class="ledger-empty" style="font-size:0.8rem;">Nothing tagged here today.</div>`;
     return `
-    <div class="ledger-row">
-      <span class="tag ${info.tagClass}" style="font-size:0.6rem;">${info.label}</span>
-      <a href="${escapeHtml(item.url)}" target="_blank" rel="noopener" class="ledger-title" style="flex:1;color:var(--paper);text-decoration:none;">${escapeHtml(item.headline)}</a>
+    <div class="wire-subcol">
+      <div class="wire-subcol-head"><span class="tag ${info.tagClass}">${info.label}</span></div>
+      ${rows}
     </div>`;
   }).join('');
   return `
   <div class="panel">
-    <h3>Today's Wire</h3>
-    <div class="panel-sub">Auto-pulled from RSS — ${latest.date}</div>
-    <div>${rows}</div>
-    <div class="panel-sub" style="margin-top:10px;">Tip: paste any of these into a Claude chat for a quick "why this matters" analysis — free with your existing account.</div>
+    <div class="wire-head-row">
+      <h3 style="margin:0;">Today's Wire</h3>
+      <select onchange="window.__setWireDate(this.value)">${dateOptions}</select>
+    </div>
+    <div class="panel-sub">Auto-pulled from RSS, sorted into your three lenses</div>
+    <div class="wire-grid">${colsHtml}</div>
+    <div class="panel-sub" style="margin-top:14px;">Tip: paste any of these into a Claude chat for a quick "why this matters" analysis — free with your existing account.</div>
   </div>`;
 }
 
@@ -641,11 +667,15 @@ function renderLedger(){
   });
   STATE.customEvents.forEach(e=>{
     catCounts.custom++;
-    entries.push({title:e.title, category:e.category, date:e.date, custom:true});
+    entries.push({title:e.title, category:e.category, date:e.date, custom:true, notes:e.notes});
   });
   entries.sort((a,b)=> a.date < b.date ? 1 : -1);
   if(ledgerFilter !== 'all'){
     entries = entries.filter(e=> (ledgerFilter==='custom' ? e.custom : e.category===ledgerFilter));
+  }
+  if(ledgerSearch.trim()){
+    const q = ledgerSearch.trim().toLowerCase();
+    entries = entries.filter(e=> e.title.toLowerCase().includes(q) || (e.notes||'').toLowerCase().includes(q));
   }
   const filters = ['all','geo','hist','ind','custom'];
   const filterHtml = filters.map(f=>{
@@ -659,20 +689,21 @@ function renderLedger(){
       <span class="ledger-title" style="flex:1;">${escapeHtml(e.title)}</span>
       <span class="ledger-date">${e.date}</span>
     </div>`;
-  }).join('') : `<div class="ledger-empty">Nothing logged yet in this category.</div>`;
+  }).join('') : `<div class="ledger-empty">Nothing logged yet — mark a briefing reviewed or log a current event to start building this.</div>`;
 
   return `
   <div class="panel">
     <h3>The Ledger</h3>
-    <div class="panel-sub">Your accumulating knowledge base</div>
+    <div class="panel-sub">Your accumulating knowledge base — ${entries.length} shown</div>
     <div class="statbar">
       <div class="statbar-item"><b>${catCounts.geo}</b> geopolitics</div>
       <div class="statbar-item"><b>${catCounts.hist}</b> history</div>
       <div class="statbar-item"><b>${catCounts.ind}</b> industrials</div>
       <div class="statbar-item"><b>${catCounts.custom}</b> self-logged</div>
     </div>
+    <input type="text" class="ledger-search" placeholder="Search your ledger..." value="${escapeHtml(ledgerSearch)}" oninput="window.__setSearch(this.value)">
     <div class="filter-row">${filterHtml}</div>
-    <div>${rows}</div>
+    <div class="ledger-list">${rows}</div>
   </div>`;
 }
 
@@ -681,15 +712,17 @@ function render(){
     ${renderMasthead()}
     <div class="grid">
       <div>
-        ${renderBriefingCard()}
-        ${renderQuizCard()}
+        ${renderWire()}
       </div>
       <div>
-        ${renderWire()}
+        ${renderBriefingCard()}
+        ${renderQuizCard()}
         ${renderConnections()}
-        ${renderCustomForm()}
-        ${renderLedger()}
       </div>
+    </div>
+    <div class="ledger-section">
+      ${renderCustomForm()}
+      ${renderLedger()}
     </div>
   `;
 }
@@ -713,6 +746,8 @@ window.__addCustom = ()=>{
   addCustomEvent(title, category, notes);
 };
 window.__setFilter = (f)=>{ ledgerFilter = f; render(); };
+window.__setSearch = (v)=>{ ledgerSearch = v; render(); };
+window.__setWireDate = (d)=>{ activeWireDate = d; render(); };
 
 (async function init(){
   await Promise.all([loadState(), loadWire()]);
