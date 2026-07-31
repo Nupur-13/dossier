@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-07-31",
+    "items": [
+      {
+        "headline": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
+        "url": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
+        "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Case for King Arthur",
+        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
+        "category": "hist"
+      },
+      {
+        "headline": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
+        "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russia and Ukraine report casualties as they continue to trade attacks",
+        "url": "https://www.aljazeera.com/news/2026/7/31/russia-and-ukraine-report-casualties-as-they-continue-to-trade-attacks?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "Two bodies located and search ongoing after avalanche hits Nirmal Purja's team",
+        "url": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "NATO Says Russian Missile Violated Polish Airspace",
+        "url": "https://foreignpolicy.com/2026/07/30/poland-russia-missile-incursion-nato-ukraine-war-strikes/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-07-30",
     "items": [
       {
