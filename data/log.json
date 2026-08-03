@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-03",
+    "items": [
+      {
+        "headline": "Rhine falls to record low levels as drought strains Europe's rivers",
+        "url": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
+        "url": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Case for King Arthur",
+        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
+        "category": "hist"
+      },
+      {
+        "headline": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
+        "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Sudan army drone strike on court session kills 35, rights group says",
+        "url": "https://www.bbc.co.uk/news/articles/ce85097leydo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "'My only son was shot standing up for justice' - inside city gripped by deadly protests in Pakistan-administered Kashmir",
+        "url": "https://www.bbc.co.uk/news/articles/c5yvqk69enko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Romanian navy blasts riverbed to protect nuclear plant",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/3/romanian-navy-blasts-riverbed-to-protect-nuclear-plant?traffic_source=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-02",
     "items": [
       {
