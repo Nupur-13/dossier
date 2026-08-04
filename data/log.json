@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-04",
+    "items": [
+      {
+        "headline": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
+        "url": "https://www.bbc.co.uk/news/articles/c80n3j55g0do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Video shows Russian drone chasing Ukrainian street vendor in 'human safari' attack",
+        "url": "https://www.bbc.co.uk/news/articles/cn4n03xg981o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Case for King Arthur",
+        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
+        "category": "hist"
+      },
+      {
+        "headline": "Ukraine hits more Wildberries sites as strike kills five in Moscow region",
+        "url": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Oil prices fall on hopes Strait of Hormuz could reopen",
+        "url": "https://www.bbc.co.uk/news/articles/cpw9v0gnzxwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Immoral Panic: Antisemitism in Georgian England",
+        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
+        "category": "hist"
+      },
+      {
+        "headline": "More than 170 migrants rescued after boat catches fire in Channel",
+        "url": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iran in Port Sudan? The Next Threat to Asian Markets",
+        "url": "https://thediplomat.com/2026/08/iran-in-port-sudan-the-next-threat-to-asian-markets/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-03",
     "items": [
       {
