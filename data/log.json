@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-07",
+    "items": [
+      {
+        "headline": "Meta fined $567m in largest child safety ruling against social media giant",
+        "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+        "url": "https://www.bbc.co.uk/news/articles/cy8mjd19xm7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "King of Games: Politics, Polo, and the Raj",
+        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
+        "category": "hist"
+      },
+      {
+        "headline": "Saudi Arabia, Turkey and Pakistan sign defence pact",
+        "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ukraine’s Deadly Missile Defense Shortage",
+        "url": "https://foreignpolicy.com/2026/08/05/ukraine-patriot-missile-interceptor-shortage-russia-war-zelensky-us-trump-nato/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Case for King Arthur",
+        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
+        "category": "hist"
+      },
+      {
+        "headline": "Trump again tries to limit US birthright citizenship with new executive orders",
+        "url": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "How a 90-second power outage sparked  chaos for rail commuters",
+        "url": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-05",
     "items": [
       {
