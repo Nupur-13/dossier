@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-08",
+    "items": [
+      {
+        "headline": "Todd Blanche, Trump's ex-lawyer, confirmed as US attorney general",
+        "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Child among three killed in Russian missile attacks near Kyiv",
+        "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Hunter Biden tells BBC his pardon was 'not good' for America or his father's legacy",
+        "url": "https://www.bbc.co.uk/news/articles/cy8ey458pv5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "The phone book that led us to Assad's spy chief in hiding",
+        "url": "https://www.bbc.co.uk/news/articles/c4gyrzn8p94o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
+        "url": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "King of Games: Politics, Polo, and the Raj",
+        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
+        "category": "hist"
+      },
+      {
+        "headline": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+        "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "How a 90-second power outage sparked chaos for rail commuters",
+        "url": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-07",
     "items": [
       {
