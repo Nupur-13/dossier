@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-12",
+    "items": [
+      {
+        "headline": "Trump confirms he switched planes after Nato summit because of possible threat",
+        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Sudanese army intercepts RSF drones over el-Obeid",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/12-08-sv-sudan-intercepts-rsf-drones-su?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Slavery in the Colonial Caribbean",
+        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
+        "category": "hist"
+      },
+      {
+        "headline": "Trump's dramatic plane swap hints at personal stakes of Iran war",
+        "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Why has North Korea fired a missile ahead of US-South Korea drills?",
+        "url": "https://www.aljazeera.com/news/2026/8/12/why-has-north-korea-fired-a-missile-ahead-of-us-south-korea-drills?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "King of Games: Politics, Polo, and the Raj",
+        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
+        "category": "hist"
+      },
+      {
+        "headline": "Woman pulled alive from rubble 36 hours after Colombia quake",
+        "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Burnham warned Iran war could hit UK growth next year",
+        "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-11",
     "items": [
       {
