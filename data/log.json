@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-15",
+    "items": [
+      {
+        "headline": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
+        "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Electric vehicle sales targets could be cut after pressure from car makers",
+        "url": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Bangladesh rock Australia as historic Test win in sight",
+        "url": "https://www.aljazeera.com/sports/2026/8/15/bangladesh-rock-australia-as-historic-test-win-in-sight?traffic_source=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
+        "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Temporary ban on disposable BBQs as military deployed to help battle wildfires",
+        "url": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Slavery in the Colonial Caribbean",
+        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
+        "category": "hist"
+      },
+      {
+        "headline": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
+        "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Selena Gomez sued for alleged fraud over mental health company",
+        "url": "https://www.bbc.co.uk/news/articles/c8jn2811we4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-14",
     "items": [
       {
