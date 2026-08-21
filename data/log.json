@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-21",
+    "items": [
+      {
+        "headline": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+        "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Closure of al-Makha port leaves workers and traders fearing for the future",
+        "url": "https://www.aljazeera.com/economy/2026/8/21/houthi-attacks-on-mokha-port-forced-it-to-suspend-operations-leaving-workers-jobless?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Bodies of two hikers missing for decades found after Swiss glacier melts",
+        "url": "https://www.bbc.co.uk/news/articles/cd9w1jwdkkjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Rosenberg: Shortage of petrol but not patriotism as Russians feel growing impact of war",
+        "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Bolivia’s Lithium Isn’t a Gold Mine",
+        "url": "https://foreignpolicy.com/2026/08/20/bolivia-paz-lithium-economy-crisis-mining/",
+        "category": "ind"
+      },
+      {
+        "headline": "Soviet Science Behind the Language Barrier",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
+        "category": "hist"
+      },
+      {
+        "headline": "Hong Kong's Tiananmen activists guilty in national security trial",
+        "url": "https://www.bbc.co.uk/news/articles/c1l10mdrld5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Why the World’s Hedging Responses to China’s Rare Earth Dominance Have Failed",
+        "url": "https://thediplomat.com/2026/08/why-the-worlds-hedging-responses-to-chinas-rare-earth-dominance-have-failed/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "items": [
       {
