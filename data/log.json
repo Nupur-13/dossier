@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-22",
+    "items": [
+      {
+        "headline": "TikTok to pay $400m to US in one of largest child privacy settlements",
+        "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
+        "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Soviet Science Behind the Language Barrier",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
+        "category": "hist"
+      },
+      {
+        "headline": "Israel re-establishes closed West Bank settlement, defying growing international protests",
+        "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "How will Trump’s tariffs affect Canada’s economy?",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/how-will-trumps-tariffs-affect-canadas-economy?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Slavery in the Colonial Caribbean",
+        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
+        "category": "hist"
+      },
+      {
+        "headline": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
+        "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Panama Canal to reduce shipping as ‘extreme’ El Nino approaches",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/panama-canal-to-reduce-shipping-as-extreme-el-nino-approaches?traffic_source=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-21",
     "items": [
       {
