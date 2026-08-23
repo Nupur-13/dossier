@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-23",
+    "items": [
+      {
+        "headline": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
+        "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Israel’s war on Gaza forces Palestinians to rely on ‘Stone Age’ toilets",
+        "url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Soviet Science Behind the Language Barrier",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
+        "category": "hist"
+      },
+      {
+        "headline": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Struggling households need more help with bills, energy industry says",
+        "url": "https://www.bbc.co.uk/news/articles/cm2g5x7l4mko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Slavery in the Colonial Caribbean",
+        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
+        "category": "hist"
+      },
+      {
+        "headline": "Girl, 17, killed in Swedish sword attack, police say",
+        "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "CrossCountry cancels UK services after power cut",
+        "url": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-22",
     "items": [
       {
