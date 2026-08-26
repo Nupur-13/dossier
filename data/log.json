@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-26",
+    "items": [
+      {
+        "headline": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer",
+        "url": "https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
+        "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Women Who Fought the Mau Mau",
+        "url": "https://www.historytoday.com/archive/history-matters/women-who-fought-mau-mau",
+        "category": "hist"
+      },
+      {
+        "headline": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
+        "url": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "German airport worker dies of malaria after 'mosquito arrives on plane'",
+        "url": "https://www.bbc.co.uk/news/articles/cz6zwgg9y8go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Soviet Science Behind the Language Barrier",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
+        "category": "hist"
+      },
+      {
+        "headline": "Radiation link in flight attendant's breast cancer, French court finds",
+        "url": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Germany's Merz warns attackers will 'pay price' after drone incident",
+        "url": "https://www.bbc.co.uk/news/articles/cddv71p4j2jo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-25",
     "items": [
       {
