@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-28",
+    "items": [
+      {
+        "headline": "Norway mourns King Harald as Haakon VIII ascends throne",
+        "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ukraine’s Zelenskyy plans to hit Russia with ‘1,000 drones’ a day",
+        "url": "https://www.aljazeera.com/news/2026/8/28/ukraines-zelenskyy-plans-to-hit-russia-with-1000-drones-a-day?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Tim Cook’s Dark Legacy in China",
+        "url": "https://thediplomat.com/2026/08/tim-cooks-dark-legacy-in-china/",
+        "category": "hist"
+      },
+      {
+        "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
+        "url": "https://www.bbc.co.uk/news/articles/c5ydgk3v60eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "I was spending £700 a month: How I beat my late-night shopping addiction",
+        "url": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Crimped by the Prince of Shanghai",
+        "url": "https://www.historytoday.com/archive/history-matters/crimped-prince-shanghai",
+        "category": "hist"
+      },
+      {
+        "headline": "Russia ramps up rhetoric but wants to avoid war with Nato, Western officials say",
+        "url": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+        "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "items": [
       {
