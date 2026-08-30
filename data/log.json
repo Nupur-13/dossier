@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-08-30",
+    "items": [
+      {
+        "headline": "Iceland votes against restarting EU membership talks",
+        "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+        "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Tim Cook’s Dark Legacy in China",
+        "url": "https://thediplomat.com/2026/08/tim-cooks-dark-legacy-in-china/",
+        "category": "hist"
+      },
+      {
+        "headline": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+        "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Trump hails 'historic' deal to control 65 billion barrels of Venezuelan oil",
+        "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Crimped by the Prince of Shanghai",
+        "url": "https://www.historytoday.com/archive/history-matters/crimped-prince-shanghai",
+        "category": "hist"
+      },
+      {
+        "headline": "Canada installs large Lake Ontario sign in latest jab at US",
+        "url": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
+        "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-29",
     "items": [
       {
