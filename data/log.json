@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-01",
+    "items": [
+      {
+        "headline": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
+        "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Who is Alejandro Betancourt, ex-Chavez ally now Trump’s Venezuela oil man?",
+        "url": "https://www.aljazeera.com/news/2026/9/1/who-is-alejandro-betancourt-ex-chavez-ally-now-trumps-venezuela-oil-man?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
+        "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "UK long-term borrowing costs highest since 1998 ahead of October Budget",
+        "url": "https://www.bbc.co.uk/news/articles/c8d39vq779no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Crimped by the Prince of Shanghai",
+        "url": "https://www.historytoday.com/archive/history-matters/crimped-prince-shanghai",
+        "category": "hist"
+      },
+      {
+        "headline": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
+        "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Shein valued at $26bn after long-awaited stock market debut",
+        "url": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-08-31",
     "items": [
       {
