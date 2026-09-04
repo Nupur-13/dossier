@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-04",
+    "items": [
+      {
+        "headline": "Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect",
+        "url": "https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "UK support for Falkland Islands 'unwavering' after Argentina restates claims, No 10 says",
+        "url": "https://www.bbc.co.uk/news/articles/cn45jg3zlz4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "'Layer upon layer of miracles': How Nepal flood survivors were rescued from tunnel",
+        "url": "https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Venezuelans Aren’t Happy With the U.S. Oil Deal",
+        "url": "https://foreignpolicy.com/2026/09/04/us-venezuela-oil-trump-rodriguez-oligarchs-colonialism-democracy/",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Trump's peace envoys to visit Moscow and Kyiv over weekend, reports say",
+        "url": "https://www.bbc.co.uk/news/articles/c23x0z48x0no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Peace in Sudan Can Only Flower After a Weapons Embargo",
+        "url": "https://foreignpolicy.com/2026/09/03/sudan-war-united-nations-security-council-arms-weapons-embargo-trump-administration-united-states-foreign-policy/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-03",
     "items": [
       {
