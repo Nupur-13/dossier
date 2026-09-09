@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-09",
+    "items": [
+      {
+        "headline": "Germany's Merz attacks AfD in stormy debate after far-right election win",
+        "url": "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+        "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Hutu and Tutsi: The history behind the divide",
+        "url": "https://www.aljazeera.com/news/2026/9/9/hutu-and-tutsi-the-history-behind-the-divide?traffic_source=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "US to ban imports of some Canadian alcohol, dairy goods and motorbikes",
+        "url": "https://www.bbc.co.uk/news/articles/c99dm1000p7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "At least 14 killed in weapons depot blast in Syria’s Idlib, state TV says",
+        "url": "https://www.aljazeera.com/news/2026/9/9/at-least-14-killed-in-weapons-depot-blast-in-syrias-idlib-state-tv-says?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Samarkand to Host the Largest Chess Olympiad in History",
+        "url": "https://thediplomat.com/2026/09/samarkand-to-host-the-largest-chess-olympiad-in-history/",
+        "category": "hist"
+      },
+      {
+        "headline": "Russia and Ukraine exchange strikes as two killed at Moldova border",
+        "url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Japan and South Korea Face Off Again in the US Navy’s Frigate Search",
+        "url": "https://thediplomat.com/2026/09/japan-and-south-korea-face-off-again-in-the-us-navys-frigate-search/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-08",
     "items": [
       {
