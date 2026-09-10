@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-10",
+    "items": [
+      {
+        "headline": "Trump says every adult American will get $5,000 if Republicans win midterms",
+        "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "French Football Federation withdraws support for FIFA President Infantino",
+        "url": "https://www.aljazeera.com/sports/2026/9/10/french-football-federation-withdraws-support-for-fifa-president-infantino?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Watch: Is Trump's $5,000 election pledge legal?",
+        "url": "https://www.bbc.co.uk/news/videos/czxzwge59w8o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iran Launches Massive Attack on Global Shipping",
+        "url": "https://foreignpolicy.com/2026/09/09/iran-strikes-shipping-strait-hormuz-jordan-us-oil-prices/",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Iran war won't end until after crucial November elections, says Trump",
+        "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russia Is Helping Supercharge North Korea’s Military Drones",
+        "url": "https://thediplomat.com/2026/09/russia-is-helping-supercharge-north-koreas-military-drones/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-09",
     "items": [
       {
