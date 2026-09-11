@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-11",
+    "items": [
+      {
+        "headline": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
+        "url": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Anthropic blocks possible attempt to use AI to make biological weapons",
+        "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Israel says it has destroyed major underground Hezbollah base",
+        "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Myanmar airport closed following reported drone attack",
+        "url": "https://www.aljazeera.com/news/2026/9/11/myanmar-airport-closed-following-reported-drone-attack?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Buddhist monk arrested in suspected $3m embezzlement scandal",
+        "url": "https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US inflation holds steady as diesel prices pass $6 a gallon",
+        "url": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-10",
     "items": [
       {
