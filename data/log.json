@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-12",
+    "items": [
+      {
+        "headline": "A united Ireland would be 'fantastic' says Trump during Irish visit",
+        "url": "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
+        "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Ukraine faces 'toughest winter' since Russia's full-scale invasion, UN official tells BBC",
+        "url": "https://www.bbc.co.uk/news/articles/cwyz59yyqk4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Trump: Iran probably ‘behind’ Saudi oil pipeline attack",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/trump-iran-probably-behind-saudi-oil-pipeline-attack?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Death toll from Philippines ferry fire climbs to 35, with dozens still missing",
+        "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
+        "url": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-11",
     "items": [
       {
