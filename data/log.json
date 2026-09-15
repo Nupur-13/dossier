@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-15",
+    "items": [
+      {
+        "headline": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
+        "url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Denmark says Russian warship fired flares at military helicopter",
+        "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Welsh actor Matthew Rhys makes Emmy Awards history with double win",
+        "url": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "What weapon could the US have put into space?",
+        "url": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "What are ‘space weapons’, which US says it has deployed into orbit?",
+        "url": "https://www.aljazeera.com/features/2026/9/15/what-are-space-weapons-which-us-says-it-has-deployed-into-orbit?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Suspected sabotage causes major Netherlands rail disruption",
+        "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "The Laws of War Must Change for the Drone Age",
+        "url": "https://foreignpolicy.com/2026/09/14/drones-civilians-law-geneva-conventions/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-14",
     "items": [
       {
