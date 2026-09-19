@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-19",
+    "items": [
+      {
+        "headline": "US and Denmark reach deal over Greenland after Trump annexation threats",
+        "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Infrastructure Gaps Test Pakistan&#8217;s Flagship CPEC Industrial Zone, Field Survey Finds",
+        "url": "https://thediplomat.com/2026/09/infrastructure-gaps-test-pakistans-flagship-cpec-industrial-zone-field-survey-finds/",
+        "category": "ind"
+      },
+      {
+        "headline": "Shipki La and the Battle Over the History of China-India Trade",
+        "url": "https://thediplomat.com/2026/09/shipki-la-and-the-battle-over-the-history-of-china-india-trade/",
+        "category": "hist"
+      },
+      {
+        "headline": "Trump says he is banning CNN and Politico from White House",
+        "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Drones Offer Central Asia an Escape From Foreign Dependency",
+        "url": "https://thediplomat.com/2026/09/drones-offer-central-asian-an-escape-from-foreign-dependency/",
+        "category": "ind"
+      },
+      {
+        "headline": "Warren Buffett steps down after six decades at Berkshire - 'Father Time always wins'",
+        "url": "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Google's Gemini AI hacked three companies in security test",
+        "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
+        "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-18",
     "items": [
       {
