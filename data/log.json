@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-21",
+    "items": [
+      {
+        "headline": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+        "url": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Is it a missile? Is it a drone? What’s the Pelican used by Ukraine?",
+        "url": "https://www.aljazeera.com/news/2026/9/21/is-it-a-missile-is-it-a-drone-whats-the-pelican-used-by-ukraine?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "CNN, MS NOW and Politico file lawsuit against Trump's White House ban",
+        "url": "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Nuclear Energy Is the Kremlin’s Latest Leverage Over Washington",
+        "url": "https://foreignpolicy.com/2026/09/21/uranium-russia-us-nuclear-energy-enrichment-sanctions-putin-trump/",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Merz vows to keep coalition together for Germany's 'democratic future'",
+        "url": "https://www.bbc.co.uk/news/articles/cqm27p8enwmko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ahead of Trump-Xi Summit, North Korea Launches More Missiles",
+        "url": "https://thediplomat.com/2026/09/ahead-of-trump-xi-summit-north-korea-launches-more-missiles/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-20",
     "items": [
       {
