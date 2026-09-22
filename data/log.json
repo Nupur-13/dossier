@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-22",
+    "items": [
+      {
+        "headline": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
+        "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Reciprocal Trade Deal With the US Close to Completion, Vietnamese Media Reports",
+        "url": "https://thediplomat.com/2026/09/reciprocal-trade-deal-with-the-us-close-to-completion-vietnamese-media-reports/",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
+        "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ahead of Trump-Xi Summit, North Korea Launches More Missiles",
+        "url": "https://thediplomat.com/2026/09/ahead-of-trump-xi-summit-north-korea-launches-more-missiles/",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Developing El Niño becomes strongest on record weeks before expected peak",
+        "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Sir Jim Ratcliffe suspends production at key UK plants blaming high gas prices",
+        "url": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-21",
     "items": [
       {
