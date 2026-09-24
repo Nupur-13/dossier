@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-24",
+    "items": [
+      {
+        "headline": "White House 'repeatedly violated' court order to restore press access, say media outlets",
+        "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Saudi-led coalition says shot down 6 ballistic missiles launched by Houthis",
+        "url": "https://www.aljazeera.com/news/2026/9/24/saudi-led-coalition-says-shot-down-6-ballistic-missiles-launched-by-houthis?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+        "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Rare Earths at the Trump-Xi Summit: Relief Without a Resolution",
+        "url": "https://thediplomat.com/2026/09/rare-earths-at-the-trump-xi-summit-relief-without-a-resolution/",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+        "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Reported assaults on Britain's rail services rise by more than a third",
+        "url": "https://www.bbc.co.uk/news/articles/c6z0z5dz884lo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-23",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "US hits dozens of countries with new wave of tariffs",
         "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-24",
-    "items": [
-      {
-        "headline": "US and Iran trade more strikes in Gulf as fears of escalation mount",
-        "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "US hits dozens of countries with new wave of tariffs",
-        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Immoral Panic: Antisemitism in Georgian England",
-        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
-        "category": "hist"
-      },
-      {
-        "headline": "Indonesian babies were trafficked to Singapore. What happens to them now?",
-        "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Romanian jet fighter shoots down suspected Russian drone",
-        "url": "https://www.aljazeera.com/news/2026/7/24/romanian-jet-fighter-shoots-down-suspected-russian-drone?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "The Legend of the Gibbet",
-        "url": "https://www.historytoday.com/archive/history-matters/legend-gibbet",
-        "category": "hist"
-      },
-      {
-        "headline": "South Africa's president wins bid to temporarily halt impeachment inquiry over 'Farmgate'",
-        "url": "https://www.bbc.co.uk/news/articles/cwymj9lkx13o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Life without refrigerators: Gaza residents fight heat and food spoilage",
-        "url": "https://www.aljazeera.com/economy/2026/7/24/life-without-refrigerators-gaza-residents-fight-heat-and-food-spoilage?traffic_source=rss",
         "category": "ind"
       }
     ]
