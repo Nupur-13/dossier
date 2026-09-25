@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-25",
+    "items": [
+      {
+        "headline": "Pope warns against 'losing humanity' to AI machines",
+        "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "India’s Semiconductor Journey: Old Designer, New Producer",
+        "url": "https://thediplomat.com/2026/09/indias-semiconductor-journey-old-designer-new-producer/",
+        "category": "ind"
+      },
+      {
+        "headline": "China swimmer makes Asian Games history as Thai sprinter wins track 100m",
+        "url": "https://www.aljazeera.com/sports/2026/9/25/china-swimmer-makes-asian-games-history-as-thai-sprinter-wins-track-100m?traffic_source=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
+        "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US backs Elon Musk's bid to overturn €120m EU fine against X",
+        "url": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Cambodian Beauty Pageant Acknowledges Mistaken Use of Thai Historical Photograph",
+        "url": "https://thediplomat.com/2026/09/cambodian-beauty-pageant-acknowledges-mistaken-use-of-thai-historical-photograph/",
+        "category": "hist"
+      },
+      {
+        "headline": "Xi got Trump's red carpet welcome - but not everything he wanted",
+        "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "UK diesel price close to all-time high",
+        "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-24",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Trump Swaps Out Tariffs for Even More Tariffs",
         "url": "https://foreignpolicy.com/2026/07/24/us-tariffs-forced-labor-trump-section-301-trade-protectionism/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "items": [
-      {
-        "headline": "Trump takes swipes at press during White House Correspondents' Dinner",
-        "url": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-        "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
-        "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Zelensky tries to fix crisis over removal of defence minister and counts the cost",
-        "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Ten killed in Russian attack on drone exhibition near Kyiv",
-        "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Immoral Panic: Antisemitism in Georgian England",
-        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
-        "category": "hist"
-      },
-      {
-        "headline": "Four Palestinians and two Israelis killed in West Bank shooting",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "US hits dozens of countries with new wave of tariffs",
-        "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
