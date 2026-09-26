@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-26",
+    "items": [
+      {
+        "headline": "Huge crowds greet Pope in Paris for open-air Mass",
+        "url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "From Idols to KOICA: South Korea’s Disaster Support for Nepal",
+        "url": "https://thediplomat.com/2026/09/from-idols-to-koica-south-koreas-disaster-support-for-nepal/",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+        "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "OpenAI bots meddled with multiple US government agency sites",
+        "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How the Carthusians Resisted the Reformation",
+        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
+        "category": "hist"
+      },
+      {
+        "headline": "British national among six dead in building explosion close to Acropolis in Athens",
+        "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Could an iced coffee freeze you out of the job market?",
+        "url": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-25",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "The Rise of North Korea’s Nuclear-Armed Navy",
         "url": "https://thediplomat.com/2026/07/the-rise-of-north-koreas-nuclear-armed-navy/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-26",
-    "items": [
-      {
-        "headline": "What we know so far about the Berlin Pride ramming attack",
-        "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Ten killed in Russian attack on drone exhibition near Kyiv",
-        "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Immoral Panic: Antisemitism in Georgian England",
-        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
-        "category": "hist"
-      },
-      {
-        "headline": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
-        "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-        "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "The Legend of the Gibbet",
-        "url": "https://www.historytoday.com/archive/history-matters/legend-gibbet",
-        "category": "hist"
-      },
-      {
-        "headline": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
-        "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump Swaps Out Tariffs for Even More Tariffs",
-        "url": "https://foreignpolicy.com/2026/07/24/us-tariffs-forced-labor-trump-section-301-trade-protectionism/",
         "category": "ind"
       }
     ]
