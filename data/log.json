@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-27",
+    "items": [
+      {
+        "headline": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
+        "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "From Idols to KOICA: South Korea’s Disaster Support for Nepal",
+        "url": "https://thediplomat.com/2026/09/from-idols-to-koica-south-koreas-disaster-support-for-nepal/",
+        "category": "ind"
+      },
+      {
+        "headline": "US installation commemorates victims of South African ‘white genocide’",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/us-installation-commemorates-victims-of-south-african-white?traffic_source=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "'Scourge' of abuse must be rooted out, says Pope, during Lourdes visit",
+        "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Andy Burnham refuses to back third runway at Heathrow",
+        "url": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Golden Horses, Red Square",
+        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
+        "category": "hist"
+      },
+      {
+        "headline": "Two mass shootings in South Africa leave 27 dead",
+        "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Faisal Islam: The two big decisions the chancellor must make",
+        "url": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-26",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Some parents on benefits to be offered up to £4,500 for child starting apprenticeship",
         "url": "https://www.bbc.co.uk/news/articles/cwy4v6e9d2go?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "items": [
-      {
-        "headline": "Devastating European wildfires in maps - and how they're being tackled",
-        "url": "https://www.bbc.co.uk/news/articles/cj638jx0l53o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Oil price dives as US and Iran pause attacks",
-        "url": "https://www.bbc.co.uk/news/articles/clyj834jn5lo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Five decades of Israeli covert strategy to push US, Iran into confrontation",
-        "url": "https://www.aljazeera.com/opinions/2026/7/27/five-decades-of-israeli-covert-strategy-to-push-us-iran-into-confrontation?traffic_source=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars",
-        "url": "https://www.bbc.co.uk/news/articles/cwyj7yl0xndo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump Swaps Out Tariffs for Even More Tariffs",
-        "url": "https://foreignpolicy.com/2026/07/24/us-tariffs-forced-labor-trump-section-301-trade-protectionism/",
-        "category": "ind"
-      },
-      {
-        "headline": "This Ship Sank in the Baltic Sea With Presents Bound for a Romanov Czar. Its Cargo Included Champagne, Luxury Mineral Water and Rare Meteorites",
-        "url": "https://www.smithsonianmag.com/history/this-ship-sank-in-the-baltic-sea-with-presents-bound-for-a-romanov-czar-its-cargo-included-champagne-luxury-mineral-water-and-rare-meteorites-180989198/",
-        "category": "hist"
-      },
-      {
-        "headline": "More than 600 US military service members injured since Iran War began in February",
-        "url": "https://www.bbc.co.uk/news/articles/c998pzd1e8xo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "The Rise of North Korea’s Nuclear-Armed Navy",
-        "url": "https://thediplomat.com/2026/07/the-rise-of-north-koreas-nuclear-armed-navy/",
         "category": "ind"
       }
     ]
