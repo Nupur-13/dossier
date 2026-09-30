@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-09-30",
+    "items": [
+      {
+        "headline": "Execution of US murderer Christa Pike halted shortly before it was due to happen",
+        "url": "https://www.bbc.co.uk/news/articles/cw20vxxn876no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russia launches largest attack on Ukraine energy infrastructure since spring",
+        "url": "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "US forces exiting Iraq after 2 decades, leaving opening for Iran",
+        "url": "https://www.defensenews.com/news/your-military/2026/09/29/us-forces-exiting-iraq-after-2-decades-leaving-opening-for-iran/",
+        "category": "hist"
+      },
+      {
+        "headline": "Last UK and US troops leave Iraq as anti-Islamic State mission ends",
+        "url": "https://www.bbc.co.uk/news/articles/c65ym1dyn92mo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Chinese AI tool told researchers how to make bioweapons",
+        "url": "https://www.bbc.co.uk/news/articles/cmrergq3j7lgo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "US forces exiting Iraq after 2 decades, leaving opening for Iran",
+        "url": "https://www.defensenews.com/news/your-military/2026/09/29/us-forces-exiting-iraq-after-2-decades-leaving-opening-for-iran/",
+        "category": "hist"
+      },
+      {
+        "headline": "Ethiopia fighting escalates in Tigray killing 52 civilians, medic tells the BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c6grveejg1e2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Africa's richest man launches Kenya oil refinery despite land protests",
+        "url": "https://www.bbc.co.uk/news/articles/cmkg8dpwy25po?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-09-29",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "NATO Says Russian Missile Violated Polish Airspace",
         "url": "https://foreignpolicy.com/2026/07/30/poland-russia-missile-incursion-nato-ukraine-war-strikes/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-30",
-    "items": [
-      {
-        "headline": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
-        "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
-        "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "The Case for King Arthur",
-        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
-        "category": "hist"
-      },
-      {
-        "headline": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
-        "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "At least five members of same family killed in Russian missile attack, Zelensky says",
-        "url": "https://www.bbc.co.uk/news/articles/cy8mk59l5jzo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Immoral Panic: Antisemitism in Georgian England",
-        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
-        "category": "hist"
-      },
-      {
-        "headline": "Thousands evacuated in Crete as wildfires threaten tourist resorts",
-        "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "A Stock Market Correction Reveals South Korea’s Economic Dependency on Semiconductors",
-        "url": "https://thediplomat.com/2026/07/a-stock-market-correction-reveals-south-koreas-economic-dependency-on-semiconductors/",
         "category": "ind"
       }
     ]
