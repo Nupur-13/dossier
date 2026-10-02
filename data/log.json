@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-02",
+    "items": [
+      {
+        "headline": "Riot police clash with students as education protests rage in France",
+        "url": "https://www.bbc.co.uk/news/articles/ck3r5dxxwqzpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "G7 announces oil reserve release, as Trump hails Europe diesel deal",
+        "url": "https://www.aljazeera.com/news/2026/10/2/trump-says-europe-agrees-to-release-massive-amount-diesel-stockpile?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Taiwan Can’t Fight Beijing’s History War While Erasing Its Own ROC Legacy",
+        "url": "https://thediplomat.com/2026/10/taiwan-cant-fight-beijings-history-war-while-erasing-its-own-roc-legacy/",
+        "category": "hist"
+      },
+      {
+        "headline": "Woman at centre of Cornell rape inquiry was 'failed' by officials, says New York governor",
+        "url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "How China Managed the Oil Shock",
+        "url": "https://foreignpolicy.com/2026/10/02/china-oil-reserves-refiners-energy-crisis-coal-petrochemicals/",
+        "category": "ind"
+      },
+      {
+        "headline": "Selling Horse Meat to the Victorians",
+        "url": "https://www.historytoday.com/archive/history-matters/selling-horse-meat-victorians",
+        "category": "hist"
+      },
+      {
+        "headline": "Cornell students gather to voice anger over alleged gang rape",
+        "url": "https://www.bbc.co.uk/news/articles/cm0e3ed1er1yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Oil Is Again Flowing Out of Hormuz",
+        "url": "https://foreignpolicy.com/2026/10/01/oil-strait-hormuz-iran-trump-war-gulf-gas-diesel-prices/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-01",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Passenger on British Airways mayday flight describes fear and shout of 'I don't want to die'",
         "url": "https://www.bbc.co.uk/news/articles/cn9n2v3lwr0o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-01",
-    "items": [
-      {
-        "headline": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-        "url": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Iran warns against ‘flames of war’ amid US strike threats on energy sites",
-        "url": "https://www.aljazeera.com/news/2026/8/1/iran-warns-against-fire-of-war-amid-us-strike-threats-on-energy-sites?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "The Case for King Arthur",
-        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
-        "category": "hist"
-      },
-      {
-        "headline": "Uefa has 'lost confidence' in Infantino's Fifa leadership",
-        "url": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Faisal Islam: Four reasons why Fifa's World Cup plan never stacked up",
-        "url": "https://www.bbc.co.uk/news/articles/clyvd8363wlo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Immoral Panic: Antisemitism in Georgian England",
-        "url": "https://www.historytoday.com/archive/history-matters/immoral-panic-antisemitism-georgian-england",
-        "category": "hist"
-      },
-      {
-        "headline": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-        "url": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Snapchat joins other popular platforms in fight against 'AI slop'",
-        "url": "https://www.bbc.co.uk/news/articles/c77g6dm5pr8o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
