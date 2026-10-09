@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-09",
+    "items": [
+      {
+        "headline": "US unveils sanctions on ICC in move court condems as 'assault on rule of law'",
+        "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "India’s Energy Transition Is Complicated, But Progressing",
+        "url": "https://thediplomat.com/2026/10/indias-energy-transition-is-complicated-but-progressing/",
+        "category": "ind"
+      },
+      {
+        "headline": "Century-old houses getting new life at Fort Bragg",
+        "url": "https://www.defensenews.com/news/your-army/2026/10/08/century-old-houses-getting-new-life-at-fort-bragg/",
+        "category": "hist"
+      },
+      {
+        "headline": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+        "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US Has Opened Direct Talks With Myanmar Government, Report Claims",
+        "url": "https://thediplomat.com/2026/10/us-has-opened-direct-talks-with-myanmar-government-report-claims/",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Firing squad execution to be livestreamed, Pentagon says",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "The Afghan Taliban’s Growing Drone War Against Pakistan",
+        "url": "https://thediplomat.com/2026/10/the-afghan-talibans-growing-drone-war-against-pakistan/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-08",
     "items": [
       {
@@ -2645,51 +2690,6 @@
       {
         "headline": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
         "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "How a 90-second power outage sparked chaos for rail commuters",
-        "url": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-08",
-    "items": [
-      {
-        "headline": "Todd Blanche, Trump's ex-lawyer, confirmed as US attorney general",
-        "url": "https://www.bbc.co.uk/news/articles/cewr898jy8go?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Child among three killed in Russian missile attacks near Kyiv",
-        "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Hunter Biden tells BBC his pardon was 'not good' for America or his father's legacy",
-        "url": "https://www.bbc.co.uk/news/articles/cy8ey458pv5o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "The phone book that led us to Assad's spy chief in hiding",
-        "url": "https://www.bbc.co.uk/news/articles/c4gyrzn8p94o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
-        "url": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "King of Games: Politics, Polo, and the Raj",
-        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
-        "category": "hist"
-      },
-      {
-        "headline": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
-        "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&amp;at_campaign=rss",
         "category": "geo"
       },
       {
