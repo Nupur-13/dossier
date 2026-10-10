@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-10",
+    "items": [
+      {
+        "headline": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
+        "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Several injured as Saudi capital airport reportedly hit again",
+        "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Arnold Toynbee’s Chinese Century",
+        "url": "https://foreignpolicy.com/2026/10/09/china-history-decline-toynbee-spengler/",
+        "category": "hist"
+      },
+      {
+        "headline": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+        "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+        "url": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Century-old houses getting new life at Fort Bragg",
+        "url": "https://www.defensenews.com/news/your-army/2026/10/08/century-old-houses-getting-new-life-at-fort-bragg/",
+        "category": "hist"
+      },
+      {
+        "headline": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+        "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "India’s Energy Transition Is Complicated, But Progressing",
+        "url": "https://thediplomat.com/2026/10/indias-energy-transition-is-complicated-but-progressing/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-09",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Thames Water gave finance boss a £1m signing-on fee",
         "url": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-09",
-    "items": [
-      {
-        "headline": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-        "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Child among three killed in Russian missile attacks near Kyiv",
-        "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Israel accused of weaponising archaeology at ancient West Bank sites",
-        "url": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Fifa criticises campaign to oust president Infantino",
-        "url": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
-        "url": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "King of Games: Politics, Polo, and the Raj",
-        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
-        "category": "hist"
-      },
-      {
-        "headline": "Suspected crime boss Daniel Kinahan returning to Ireland in high-security operation",
-        "url": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "How a 90-second power outage sparked chaos for rail commuters",
-        "url": "https://www.bbc.co.uk/news/articles/c3ekd5784k5o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
