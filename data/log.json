@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-11",
+    "items": [
+      {
+        "headline": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+        "url": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Trump says Ukraine and Russia agree to ‘energy ceasefire’",
+        "url": "https://www.aljazeera.com/news/2026/10/11/trump-says-ukraine-russia-agree-to-energy-ceasefire-2?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Arnold Toynbee’s Chinese Century",
+        "url": "https://foreignpolicy.com/2026/10/09/china-history-decline-toynbee-spengler/",
+        "category": "hist"
+      },
+      {
+        "headline": "Pope Leo to have surgery after lump found on lung",
+        "url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Why are Houthi missiles breaking through Saudi Arabia’s air defences?",
+        "url": "https://www.aljazeera.com/news/2026/10/11/why-are-houthi-missiles-breaking-through-saudi-arabias-air-defences?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Century-old houses getting new life at Fort Bragg",
+        "url": "https://www.defensenews.com/news/your-army/2026/10/08/century-old-houses-getting-new-life-at-fort-bragg/",
+        "category": "hist"
+      },
+      {
+        "headline": "Homes and bridges swept away as fresh floods hit Nepal",
+        "url": "https://www.bbc.co.uk/news/articles/ck86zppejjw3o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Indonesia&#8217;s Energy Investment Potential",
+        "url": "https://thediplomat.com/2026/10/indonesias-energy-investment-potential/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-10",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "'I started in my 20s and made £8,000': Why women are often better investors than men",
         "url": "https://www.bbc.co.uk/news/articles/czdmgmzll1ro?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-10",
-    "items": [
-      {
-        "headline": "Evidence that South African special forces murdered top detective shared with BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "At least 13 killed in Ukrainian drone strike deep into Russia",
-        "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "King of Games: Politics, Polo, and the Raj",
-        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
-        "category": "hist"
-      },
-      {
-        "headline": "China evacuates one million from homes as massive storm arrives",
-        "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Nigel Farage vows to deport foreign criminals from UK prisons",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/10/nigel-farage-vows-to-deport-foreign-criminals-from-uk-prisons?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "The Case for King Arthur",
-        "url": "https://www.historytoday.com/archive/history-matters/case-king-arthur",
-        "category": "hist"
-      },
-      {
-        "headline": "Former Thai MP allegedly kills official and confesses on YouTube",
-        "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Thames Water gave finance boss a £1m signing-on fee",
-        "url": "https://www.bbc.co.uk/news/articles/c9d841yexe0o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
