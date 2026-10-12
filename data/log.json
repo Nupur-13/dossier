@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-12",
+    "items": [
+      {
+        "headline": "Documents falsified to evade tax on Abramovich's wealth, BBC finds",
+        "url": "https://www.bbc.co.uk/news/articles/c64g1l5389kvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Six Ukrainian energy sites hit by Russia since Trump announced ceasefire, Zelensky says",
+        "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Arnold Toynbee’s Chinese Century",
+        "url": "https://foreignpolicy.com/2026/10/09/china-history-decline-toynbee-spengler/",
+        "category": "hist"
+      },
+      {
+        "headline": "Saudi minister vows 'serious response' to Houthi attacks on airports",
+        "url": "https://www.bbc.co.uk/news/articles/cjly0zqq27e4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Trump faces growing backlash over plans to import diesel from Russia",
+        "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "South Africa's deputy police chief resigns after being charged with sexual offences",
+        "url": "https://www.bbc.co.uk/news/articles/c8wy9d940pyko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Cuba forges ahead with renewable energy plans amid US oil blockade",
+        "url": "https://www.aljazeera.com/economy/2026/10/12/cuba-forges-ahead-with-renewable-energy-plans-amid-us-oil-blockade?traffic_source=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-11",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Burnham warned Iran war could hit UK growth next year",
         "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-11",
-    "items": [
-      {
-        "headline": "Trump hid in catering truck in secret plane swap over Iran threat, reports say",
-        "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Russia using North Korean missiles to strike Ukraine, Zelensky says",
-        "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "Ousted Syrian dictator Bashar al-Assad sentenced to death in absentia",
-        "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Libyan authorities battle big blaze at major oil refinery",
-        "url": "https://www.bbc.co.uk/news/articles/cp308z9pl30o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "King of Games: Politics, Polo, and the Raj",
-        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
-        "category": "hist"
-      },
-      {
-        "headline": "At least 169 killed in Colombia's largest  earthquake in years",
-        "url": "https://www.bbc.co.uk/news/articles/c20e360lx0vo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "'I started in my 20s and made £8,000': Why women are often better investors than men",
-        "url": "https://www.bbc.co.uk/news/articles/czdmgmzll1ro?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
