@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-13",
+    "items": [
+      {
+        "headline": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+        "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+        "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Arnold Toynbee’s Chinese Century",
+        "url": "https://foreignpolicy.com/2026/10/09/china-history-decline-toynbee-spengler/",
+        "category": "hist"
+      },
+      {
+        "headline": "Horrified witnesses recount fatal rollercoaster incident at Six Flags",
+        "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "The United States Has an Industrial Problem in the Indo-Pacific",
+        "url": "https://thediplomat.com/2026/10/the-united-states-has-an-industrial-problem-in-the-indo-pacific/",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Breaking Bad actor RJ Mitte dies aged 34",
+        "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Three things we've learnt about the UK economy from the IMF",
+        "url": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-12",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Drone Warfare Comes to Latin America",
         "url": "https://foreignpolicy.com/2026/08/13/latin-america-armed-groups-drones-colombia-mexico-ukraine/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-12",
-    "items": [
-      {
-        "headline": "Trump confirms he switched planes after Nato summit because of possible threat",
-        "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Sudanese army intercepts RSF drones over el-Obeid",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/12/12-08-sv-sudan-intercepts-rsf-drones-su?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "Trump's dramatic plane swap hints at personal stakes of Iran war",
-        "url": "https://www.bbc.co.uk/news/articles/cly8jexn1z9o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Why has North Korea fired a missile ahead of US-South Korea drills?",
-        "url": "https://www.aljazeera.com/news/2026/8/12/why-has-north-korea-fired-a-missile-ahead-of-us-south-korea-drills?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "King of Games: Politics, Polo, and the Raj",
-        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
-        "category": "hist"
-      },
-      {
-        "headline": "Woman pulled alive from rubble 36 hours after Colombia quake",
-        "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Burnham warned Iran war could hit UK growth next year",
-        "url": "https://www.bbc.co.uk/news/articles/c5y3egv4m4mo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
