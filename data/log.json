@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-15",
+    "items": [
+      {
+        "headline": "Trump calls off livestream for Fort Hood shooter's execution by firing squad",
+        "url": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russia accuses Ukraine of attacking oil refinery after Zelensky says strikes to resume",
+        "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+        "url": "https://www.bbc.co.uk/news/articles/cked326llddgo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Seven crew missing after drone attack leaves tanker ablaze off Romania's coast",
+        "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Two dead in Istanbul after heaviest rainfall in 84 years, governor says",
+        "url": "https://www.bbc.co.uk/news/articles/cq398x7j1lrwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "‘Boiling point’: Why students are protesting against Albania’s Edi Rama",
+        "url": "https://www.aljazeera.com/news/2026/10/15/boiling-point-why-students-are-protesting-against-albanias-edi-rama?traffic_source=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-14",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
         "url": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-15",
-    "items": [
-      {
-        "headline": "Powerful 7.7-magnitude earthquake kills at least 38 in Indonesia",
-        "url": "https://www.bbc.co.uk/news/articles/c5y0zz63gero?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Electric vehicle sales targets could be cut after pressure from car makers",
-        "url": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Bangladesh rock Australia as historic Test win in sight",
-        "url": "https://www.aljazeera.com/sports/2026/8/15/bangladesh-rock-australia-as-historic-test-win-in-sight?traffic_source=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "BBC seeks to subpoena Trump's family members in Panorama lawsuit",
-        "url": "https://www.bbc.co.uk/news/articles/cd69ely319eo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Temporary ban on disposable BBQs as military deployed to help battle wildfires",
-        "url": "https://www.bbc.co.uk/news/articles/c0jlyqdj6geo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "US aircraft carrier on way to relieve USS Lincoln after issues reported aboard",
-        "url": "https://www.bbc.co.uk/news/articles/c171yp5zdrxo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Selena Gomez sued for alleged fraud over mental health company",
-        "url": "https://www.bbc.co.uk/news/articles/c8jn2811we4o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
