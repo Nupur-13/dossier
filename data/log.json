@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-16",
+    "items": [
+      {
+        "headline": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
+        "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ship attack reports near Hormuz reach record high as oil exports slow",
+        "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Palestinians and US journalist injured by Israeli settlers in West Bank harvest attack",
+        "url": "https://www.bbc.co.uk/news/articles/c65ynk7212vqo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ukraine Resumes Strikes on Russian Oil Refineries",
+        "url": "https://foreignpolicy.com/2026/10/15/ukraine-strikes-russia-oil-refineries-zelensky-trump-starlink-energy-cease-fire/",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Pope pictured for first time since surgery and cancer diagnosis",
+        "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "The Radioactive Ore That Could Break China’s Grip on Rare Earths",
+        "url": "https://foreignpolicy.com/2026/10/15/monazite-china-rare-earths-radioactive/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-15",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "How switching your bank account could earn you up to £220",
         "url": "https://www.bbc.co.uk/news/articles/c5y3ex8ry82o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-16",
-    "items": [
-      {
-        "headline": "Five killed as Russia launches fresh aerial attacks across Ukraine",
-        "url": "https://www.bbc.co.uk/news/articles/c1411pgje8xo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Qatar denies capturing three Iranian pilots after downing fighter jets",
-        "url": "https://www.bbc.co.uk/news/articles/cj4kk8kz271o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "Thousands displaced by deadly Indonesia earthquake as rescue efforts continue",
-        "url": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Electric vehicle sales targets could be cut after pressure from car makers",
-        "url": "https://www.bbc.co.uk/news/articles/c1l1yj0zd9no?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "King of Games: Politics, Polo, and the Raj",
-        "url": "https://www.historytoday.com/archive/history-matters/king-games-politics-polo-and-raj",
-        "category": "hist"
-      },
-      {
-        "headline": "Hurricane Lala lashes Hawaii with strong winds and torrential rain",
-        "url": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
-        "url": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
