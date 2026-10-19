@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-19",
+    "items": [
+      {
+        "headline": "Australian MP critically injured after being hit by car in apparent attack",
+        "url": "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ex-OpenAI worker accused of planting device had Saudi support says court filing",
+        "url": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Kenya cult leader who told parents to starve children guilty of 191 murders",
+        "url": "https://www.bbc.co.uk/news/articles/ckd6d2l3dz4xo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Houthi missile strike on Yemen camp kills 50 security recruits, local authorities say",
+        "url": "https://www.bbc.co.uk/news/articles/cv0ld6lrr2zeo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Alberta heads to polls to decide whether to hold vote on separation from Canada",
+        "url": "https://www.bbc.co.uk/news/articles/cxvgd0ymgzgyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Vinted blocks French looters listing stolen goods for sale",
+        "url": "https://www.bbc.co.uk/news/articles/cm8xzrljv72ro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-18",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Russia&#8217;s Fake Missile Test Warning to New Zealand",
         "url": "https://thediplomat.com/2026/08/russia-issues-missile-test-warning-to-new-zealand/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-19",
-    "items": [
-      {
-        "headline": "Sacked Ukrainian defence minister calls for presidential election",
-        "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump pauses new tariffs on Canada for three days, saying deal close",
-        "url": "https://www.bbc.co.uk/news/articles/cy9wz79ze29o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Soviet Science Behind the Language Barrier",
-        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
-        "category": "hist"
-      },
-      {
-        "headline": "Mushroom murderer trial undermined by 'catastrophic' hotel mix-up, appeal court told",
-        "url": "https://www.bbc.co.uk/news/articles/czjlxenlgkko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Russian Threats Won’t Stop the U.K.’s Drone Deliveries",
-        "url": "https://foreignpolicy.com/2026/08/18/british-drones-ukraine-russia-war-burnham-missiles/",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "South Korea shortens war games with US, citing Washington request",
-        "url": "https://www.bbc.co.uk/news/articles/cnvn0j31qj8o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Jump in energy bills drives UK inflation to highest rate for four months",
-        "url": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
