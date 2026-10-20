@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-20",
+    "items": [
+      {
+        "headline": "Zelensky and US envoys holding Oslo talks as Rubio denies withholding intelligence",
+        "url": "https://www.bbc.co.uk/news/articles/ck9qzn193lrlo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Sudan army drones hit mourners and fuel market killing more than 200 people, sources say",
+        "url": "https://www.bbc.co.uk/news/articles/cr3el70jz1nqo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Suspect arrested after historic town hall set alight - French media",
+        "url": "https://www.bbc.co.uk/news/articles/cw5yn5e8mezvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Marseille braces for more unrest after protests give way to 'apocalyptic' disorder",
+        "url": "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Paddy Power cuts 1,400 jobs and blames betting tax rises",
+        "url": "https://www.bbc.co.uk/news/articles/cqzrdpkm3g84o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Celebrating Fela Kuti’s legacy and the global rise of Afrobeats",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/celebrating-fela-kutis-legacy-and-the-global-rise-of-afrobeats?traffic_source=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Man charged with attack on Australian MP as suspect's father says she is family friend",
+        "url": "https://www.bbc.co.uk/news/articles/c678pnn9mpgno?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Union attacks NatWest plans to get workers back to the office",
+        "url": "https://www.bbc.co.uk/news/articles/cmly0qwnlgdvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-19",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Why the World’s Hedging Responses to China’s Rare Earth Dominance Have Failed",
         "url": "https://thediplomat.com/2026/08/why-the-worlds-hedging-responses-to-chinas-rare-earth-dominance-have-failed/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-20",
-    "items": [
-      {
-        "headline": "At least 15 killed in Kyiv as Ukraine grapples with air defence shortages",
-        "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Heatwaves and energy crunch: Can Europe withstand a double shock?",
-        "url": "https://www.aljazeera.com/video/counting-the-cost/2026/8/20/heatwaves-and-energy-crunch-can-europe-withstand-a-double-shock?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Soviet Science Behind the Language Barrier",
-        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
-        "category": "hist"
-      },
-      {
-        "headline": "Founder of collapsed Chinese property giant Evergrande sentenced to life in prison",
-        "url": "https://www.bbc.co.uk/news/articles/cd0x9mjjmgjo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Video shows Russian missile strike on Ukrainian capital",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/20/video-shows-russian-missile-strike-on-ukrainian-capital?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "Trump vows tougher economic measures on Iran and supporting countries",
-        "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Russia&#8217;s Fake Missile Test Warning to New Zealand",
-        "url": "https://thediplomat.com/2026/08/russia-issues-missile-test-warning-to-new-zealand/",
         "category": "ind"
       }
     ]
