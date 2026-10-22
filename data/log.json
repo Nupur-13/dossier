@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-22",
+    "items": [
+      {
+        "headline": "Police investigate Married at First Sight Australia after 'inappropriate' allegations",
+        "url": "https://www.bbc.co.uk/news/articles/cry83vyw3y4lo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Two killed in Houthi attack on airport in eastern Saudi Arabia, authorities say",
+        "url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "At least four dead after storm brings flooding to southern France",
+        "url": "https://www.bbc.co.uk/news/articles/cm5ynl4v4wgwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "FIFA’s Infantino made to wait on Asian support as chief coy at AFC session",
+        "url": "https://www.aljazeera.com/sports/2026/10/22/fifas-infantino-made-to-wait-on-asian-support-as-chief-coy-at-afc-session?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "French weekend protests to be limited to union demos only, says Macron",
+        "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "The Paradox at the Heart of China’s Export Boom",
+        "url": "https://foreignpolicy.com/2026/10/21/china-export-trade-economy-artificial-intelligence-trump/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-21",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "CrossCountry cancels UK services after power cut",
         "url": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-22",
-    "items": [
-      {
-        "headline": "TikTok to pay $400m to US in one of largest child privacy settlements",
-        "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-        "url": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Soviet Science Behind the Language Barrier",
-        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
-        "category": "hist"
-      },
-      {
-        "headline": "Israel re-establishes closed West Bank settlement, defying growing international protests",
-        "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "How will Trump’s tariffs affect Canada’s economy?",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/how-will-trumps-tariffs-affect-canadas-economy?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
-        "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Panama Canal to reduce shipping as ‘extreme’ El Nino approaches",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/8/22/panama-canal-to-reduce-shipping-as-extreme-el-nino-approaches?traffic_source=rss",
         "category": "ind"
       }
     ]
