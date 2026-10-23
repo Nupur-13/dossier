@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-23",
+    "items": [
+      {
+        "headline": "Deadly shooting near Paris investigated as 'crime of terrorism', minister says",
+        "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Oil spill washes up on UAE beaches after tanker strike",
+        "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Six shot dead by gunmen at church funeral in Jordan, officials say",
+        "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "China, Djibouti Express ‘Serious Concern’ Over Threats to Red Sea Shipping",
+        "url": "https://thediplomat.com/2026/10/china-djibouti-express-serious-concern-over-threats-to-red-sea-shipping/",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Israeli forces begin demolishing  Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+        "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Philippine Energy Security Could Determine the Outcome of a Taiwan Contingency",
+        "url": "https://thediplomat.com/2026/10/philippine-energy-security-could-determine-the-outcome-of-a-taiwan-contingency/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-22",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Iran faces 'greatest financial offensive ever', says US treasury secretary",
         "url": "https://www.bbc.co.uk/news/articles/c0qxew81y83o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-23",
-    "items": [
-      {
-        "headline": "Trump says Canada wants 'benefits' of being US state after trade talks collapse",
-        "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Israel’s war on Gaza forces Palestinians to rely on ‘Stone Age’ toilets",
-        "url": "https://www.aljazeera.com/features/2026/8/23/israels-war-on-gaza-forces-palestinians-to-rely-on-stone-age-toilets?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Soviet Science Behind the Language Barrier",
-        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
-        "category": "hist"
-      },
-      {
-        "headline": "Zelensky has 'questions to answer' about corruption in his government, sacked minister tells BBC",
-        "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Struggling households need more help with bills, energy industry says",
-        "url": "https://www.bbc.co.uk/news/articles/cm2g5x7l4mko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Slavery in the Colonial Caribbean",
-        "url": "https://www.historytoday.com/archive/history-matters/slavery-colonial-caribbean",
-        "category": "hist"
-      },
-      {
-        "headline": "Girl, 17, killed in Swedish sword attack, police say",
-        "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "CrossCountry cancels UK services after power cut",
-        "url": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
