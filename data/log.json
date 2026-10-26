@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-26",
+    "items": [
+      {
+        "headline": "Lula wins fourth term in dramatic Brazil election comeback",
+        "url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Indonesia Reduces Gas Supply to Singapore, Citing Domestic Energy Needs",
+        "url": "https://thediplomat.com/2026/10/indonesia-reduces-gas-supply-to-singapore-citing-domestic-energy-needs/",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+        "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+        "url": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+        "url": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Healey to shield low-income pensioners from income tax in the Budget",
+        "url": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-25",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Trump’s Missile Math Problem",
         "url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-26",
-    "items": [
-      {
-        "headline": "Far-right Israeli lawmaker damages Palestinian memorial with sledgehammer",
-        "url": "https://www.bbc.co.uk/news/articles/c0lrw8325pzo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Canada announces 'dollar-for-dollar' retaliatory tariffs on US as high as 50%",
-        "url": "https://www.bbc.co.uk/news/articles/c3v4xg5klx7o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "The Women Who Fought the Mau Mau",
-        "url": "https://www.historytoday.com/archive/history-matters/women-who-fought-mau-mau",
-        "category": "hist"
-      },
-      {
-        "headline": "Libyan who was cleared after Lockerbie bombing trial dies aged 70",
-        "url": "https://www.bbc.co.uk/news/articles/cy0zgx6wlz3o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "German airport worker dies of malaria after 'mosquito arrives on plane'",
-        "url": "https://www.bbc.co.uk/news/articles/cz6zwgg9y8go?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Soviet Science Behind the Language Barrier",
-        "url": "https://www.historytoday.com/archive/history-matters/soviet-science-behind-language-barrier",
-        "category": "hist"
-      },
-      {
-        "headline": "Radiation link in flight attendant's breast cancer, French court finds",
-        "url": "https://www.bbc.co.uk/news/articles/cn0j3z6147jo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Germany's Merz warns attackers will 'pay price' after drone incident",
-        "url": "https://www.bbc.co.uk/news/articles/cddv71p4j2jo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
