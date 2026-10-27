@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-27",
+    "items": [
+      {
+        "headline": "Turnout so far highest on record as Israelis vote in pivotal election",
+        "url": "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iranian and Qatari leaders meet at Russian energy forum",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/27/iranian-and-qatari-leaders-meet-at-russian-energy-forum?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Norway and Finland leaders hold rare call with Putin",
+        "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "China Is Building Its Way Around Europe’s EV Tariffs",
+        "url": "https://foreignpolicy.com/2026/10/27/china-europe-morocco-electric-vehicle-manufacturing-industrial-policy/",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Truce begins in Ukraine city where residents ate weeds to survive",
+        "url": "https://www.bbc.co.uk/news/articles/ck20wjnv3w0jo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "I'm a single mum on £41,000 and limit my weekly shop to £40 - it's hard",
+        "url": "https://www.bbc.co.uk/news/articles/cmx235r9wr3yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-26",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
         "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-27",
-    "items": [
-      {
-        "headline": "Collapsed glacier likely caused devastating Nepal-Tibet floods, scientists say",
-        "url": "https://www.bbc.co.uk/news/articles/cly464k252yo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump executive order bans some foreign equipment in US energy grid",
-        "url": "https://www.aljazeera.com/news/2026/8/27/trump-executive-order-bans-some-foreign-equipment-in-us-energy-grid?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Crimped by the Prince of Shanghai",
-        "url": "https://www.historytoday.com/archive/history-matters/crimped-prince-shanghai",
-        "category": "hist"
-      },
-      {
-        "headline": "What we know about deadly Nepal-Tibet floods",
-        "url": "https://www.bbc.co.uk/news/articles/cd948kn02e5o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Myanmar Shows War Doesn’t Stop Mining",
-        "url": "https://foreignpolicy.com/2026/08/27/myanmar-china-critical-minerals/",
-        "category": "ind"
-      },
-      {
-        "headline": "The Women Who Fought the Mau Mau",
-        "url": "https://www.historytoday.com/archive/history-matters/women-who-fought-mau-mau",
-        "category": "hist"
-      },
-      {
-        "headline": "Convicted Bosnian Serb war criminal Mladić dies aged 84",
-        "url": "https://www.bbc.co.uk/news/articles/c5ywxpryj95o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump’s Missile Math Problem",
-        "url": "https://foreignpolicy.com/2026/08/27/tom-karako-united-states-munitions-missile-stockpiles-iran-war-military-defense-patriot-weapons/",
         "category": "ind"
       }
     ]
