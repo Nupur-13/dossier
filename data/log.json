@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-10-28",
+    "items": [
+      {
+        "headline": "How could Israel break election deadlock? Here are four scenarios",
+        "url": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Trump’s Tariffs Will Have Another Day in Court",
+        "url": "https://foreignpolicy.com/2026/10/27/trump-tariffs-trade-war-court-ieepa/",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+        "url": "https://www.bbc.co.uk/news/articles/cwj342k62exyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Japan Confirms Dispatch to India to Explore Anti-Ship Missile Drills",
+        "url": "https://thediplomat.com/2026/10/japan-confirms-dispatch-to-india-to-explore-anti-ship-missile-drills/",
+        "category": "ind"
+      },
+      {
+        "headline": "After the Aberfan Disaster",
+        "url": "https://www.historytoday.com/archive/history-matters/after-aberfan-disaster",
+        "category": "hist"
+      },
+      {
+        "headline": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+        "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Your pay, energy bills and savings: How the Budget affects you",
+        "url": "https://www.bbc.co.uk/news/articles/cr0j05vxlwjzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-27",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
         "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-08-28",
-    "items": [
-      {
-        "headline": "Norway mourns King Harald as Haakon VIII ascends throne",
-        "url": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Ukraine’s Zelenskyy plans to hit Russia with ‘1,000 drones’ a day",
-        "url": "https://www.aljazeera.com/news/2026/8/28/ukraines-zelenskyy-plans-to-hit-russia-with-1000-drones-a-day?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Tim Cook’s Dark Legacy in China",
-        "url": "https://thediplomat.com/2026/08/tim-cooks-dark-legacy-in-china/",
-        "category": "hist"
-      },
-      {
-        "headline": "Oslo mayor calls off wedding ceremony after death of Norway's king",
-        "url": "https://www.bbc.co.uk/news/articles/c5ydgk3v60eo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "I was spending £700 a month: How I beat my late-night shopping addiction",
-        "url": "https://www.bbc.co.uk/news/articles/czxqk1gwxn7o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Crimped by the Prince of Shanghai",
-        "url": "https://www.historytoday.com/archive/history-matters/crimped-prince-shanghai",
-        "category": "hist"
-      },
-      {
-        "headline": "Russia ramps up rhetoric but wants to avoid war with Nato, Western officials say",
-        "url": "https://www.bbc.co.uk/news/articles/cz0zm2j7ld1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Fed has 'work to do' if price rises don't ease for Americans, Warsh says",
-        "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
