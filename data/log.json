@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-01",
+    "items": [
+      {
+        "headline": "Shops looted as German cost-of-living protests turn violent",
+        "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "On a Remote Island, Japan Puts Its Deep-Sea Mining Ambitions on Display",
+        "url": "https://thediplomat.com/2026/10/on-a-remote-island-japan-puts-its-deep-sea-mining-ambitions-on-display/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Tropical Parasites in the Cornish Mine",
+        "url": "https://www.historytoday.com/archive/history-matters/tropical-parasites-cornish-mine",
+        "category": "hist"
+      },
+      {
+        "headline": "Israeli strikes in Gaza kill eight including child, hospitals say",
+        "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "No more washing up: How Airbnb's new house rules have divided hosts and guests",
+        "url": "https://www.bbc.co.uk/news/articles/ckjwez8g5dyeo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Omens from the Thirty Years War",
+        "url": "https://www.historytoday.com/archive/history-matters/omens-thirty-years-war",
+        "category": "hist"
+      },
+      {
+        "headline": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+        "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+        "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-10-31",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Japan, South Korea, and the New Logic of Nuclear Energy Security in Northeast Asia",
         "url": "https://thediplomat.com/2026/09/japan-south-korea-and-the-new-logic-of-nuclear-energy-security-in-northeast-asia/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-01",
-    "items": [
-      {
-        "headline": "'I've never been to Afghanistan': Six million deportees forced to start over under the Taliban",
-        "url": "https://www.bbc.co.uk/news/articles/c2e074nn8eko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Who is Alejandro Betancourt, ex-Chavez ally now Trump’s Venezuela oil man?",
-        "url": "https://www.aljazeera.com/news/2026/9/1/who-is-alejandro-betancourt-ex-chavez-ally-now-trumps-venezuela-oil-man?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Nepal death toll crosses 1,000 as rescuers race to find workers trapped in mud-filled tunnels",
-        "url": "https://www.bbc.co.uk/news/articles/c5ylvgq9q71o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "UK long-term borrowing costs highest since 1998 ahead of October Budget",
-        "url": "https://www.bbc.co.uk/news/articles/c8d39vq779no?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Crimped by the Prince of Shanghai",
-        "url": "https://www.historytoday.com/archive/history-matters/crimped-prince-shanghai",
-        "category": "hist"
-      },
-      {
-        "headline": "Sexual assaults happening almost every day in Ceuta, prosecutors say",
-        "url": "https://www.bbc.co.uk/news/articles/c3v4pgk7gweo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Shein valued at $26bn after long-awaited stock market debut",
-        "url": "https://www.bbc.co.uk/news/articles/c3v0qrz7z25o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
