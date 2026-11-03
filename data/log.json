@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-03",
+    "items": [
+      {
+        "headline": "Seven flights across Europe targeted by suspected bomb threats",
+        "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Syria says it foiled Hezbollah plot to target Homs oil refinery",
+        "url": "https://www.aljazeera.com/news/2026/11/3/syria-arrests-cell-it-links-to-isis-over-plot-against-oil-refinery?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Uzbekistan Wins the Biggest Olympiad in History. Now Sindarov Goes for the World Crown",
+        "url": "https://thediplomat.com/2026/11/uzbekistan-wins-the-biggest-olympiad-in-history-now-sindarov-goes-for-the-world-crown/",
+        "category": "hist"
+      },
+      {
+        "headline": "Tenerife striker De Miguel dies after on-field collision",
+        "url": "https://www.bbc.co.uk/sport/football/articles/ck62yvz046pjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Tesla, Samsung Express Opposition to New US Tariffs on Vietnam",
+        "url": "https://thediplomat.com/2026/11/tesla-samsung-express-opposition-to-new-us-tariffs-on-vietnam/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Tropical Parasites in the Cornish Mine",
+        "url": "https://www.historytoday.com/archive/history-matters/tropical-parasites-cornish-mine",
+        "category": "hist"
+      },
+      {
+        "headline": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+        "url": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+        "url": "https://www.bbc.co.uk/news/articles/cmp3grwre9xdo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-02",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Peace in Sudan Can Only Flower After a Weapons Embargo",
         "url": "https://foreignpolicy.com/2026/09/03/sudan-war-united-nations-security-council-arms-weapons-embargo-trump-administration-united-states-foreign-policy/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-03",
-    "items": [
-      {
-        "headline": "UN warns of 'supersized' El Niño as countries prepare for impact",
-        "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Households warned gas price spike could pile fresh pressure on energy bills",
-        "url": "https://www.bbc.co.uk/news/articles/cm274mwxy1vo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Trump $1 coin makes him first living president on US currency in a century",
-        "url": "https://www.bbc.co.uk/news/articles/c7507g9v992o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
-        "url": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "B&Q and Five Guys among firms that paid staff below minimum wage",
-        "url": "https://www.bbc.co.uk/news/articles/c39mv4vm7exo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Mohan Malik on Trump, Asia, and the Legacy of the Global War on Terror",
-        "url": "https://thediplomat.com/2026/09/mohan-malik-on-trump-asia-and-the-legacy-of-the-global-war-on-terror/",
-        "category": "hist"
-      },
-      {
-        "headline": "Feminist activist and journalist Gloria Steinem dies, aged 92",
-        "url": "https://www.bbc.co.uk/news/articles/clyeq3ngwe4o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Almost half of households do not see benefits of economic growth, report says",
-        "url": "https://www.bbc.co.uk/news/articles/crerw510gdzo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
