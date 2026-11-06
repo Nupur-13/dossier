@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-06",
+    "items": [
+      {
+        "headline": "AI stocks climb after trillions wiped from market values",
+        "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Japan Plans New Defense Industrial Strategy to Prepare for Prolonged Conflicts",
+        "url": "https://thediplomat.com/2026/11/japan-plans-new-defense-industrial-strategy-to-prepare-for-prolonged-conflicts/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Soviet War on Smoking",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-war-smoking",
+        "category": "hist"
+      },
+      {
+        "headline": "Four midterms takeaways for 2028 White House race",
+        "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "AI stocks climb after trillions wiped from market values",
+        "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Lost Kingdom of Apalache",
+        "url": "https://www.historytoday.com/archive/history-matters/lost-kingdom-apalache",
+        "category": "hist"
+      },
+      {
+        "headline": "Two dead after bus crashes in France, officials say",
+        "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Could the US midterms burst the AI bubble?",
+        "url": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-05",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Faisal Islam: Chancellor's attempts to boost vibes may limit tax rises",
         "url": "https://www.bbc.co.uk/news/articles/c39mz7xlvjzo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-06",
-    "items": [
-      {
-        "headline": "US envoys meet Zelensky in Ukraine after talks with Putin in Russia",
-        "url": "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Venezuelans Aren’t Happy With the U.S. Oil Deal",
-        "url": "https://foreignpolicy.com/2026/09/04/us-venezuela-oil-trump-rodriguez-oligarchs-colonialism-democracy/",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "US and Iran trade retaliatory attacks on ships as conflict flares",
-        "url": "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Peace in Sudan Can Only Flower After a Weapons Embargo",
-        "url": "https://foreignpolicy.com/2026/09/03/sudan-war-united-nations-security-council-arms-weapons-embargo-trump-administration-united-states-foreign-policy/",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "TV presenter among 12 sentenced to death in Egypt drugs case",
-        "url": "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Minister to meet Jaguar Land Rover boss as thousands of job cuts expected",
-        "url": "https://www.bbc.co.uk/news/articles/crer948xq00o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
