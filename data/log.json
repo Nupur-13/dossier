@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-07",
+    "items": [
+      {
+        "headline": "No clear winner after tight New Zealand general election",
+        "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iran’s IRGC says building underground sites for weapons production, storage",
+        "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "‘Wild Horse Nine’ Looks Away From Chile’s History",
+        "url": "https://foreignpolicy.com/2026/11/06/wild-horse-nine-movie-review-chile-cia-coup-history-conspiracy-martin-mcdonagh/",
+        "category": "hist"
+      },
+      {
+        "headline": "With Stephen Miller pick, Trump readies for a battle",
+        "url": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iraq’s FM says external parties using Iraqi soil to attack neighbours",
+        "url": "https://www.aljazeera.com/news/2026/11/7/iraqs-fm-says-external-parties-using-iraqi-soil-to-attack-neighbours?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Soviet War on Smoking",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-war-smoking",
+        "category": "hist"
+      },
+      {
+        "headline": "Paraguay's president impeached and under house arrest after bank collapse",
+        "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "AI stocks climb after trillions wiped from market values",
+        "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-06",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
         "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-07",
-    "items": [
-      {
-        "headline": "Germany's far-right AfD says 'democracy demands' parties work with them after state election win",
-        "url": "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "How the media manufactured consent for genocide",
-        "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/7/how-the-media-manufactured-consent-for-genocide?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Chancellor calls for 'confidence about Britain' despite 'historic high' borrowing costs",
-        "url": "https://www.bbc.co.uk/news/articles/cgjqg450w28o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Thousands turn out in Serbia for funeral of  'Butcher of Bosnia' Ratko Mladić",
-        "url": "https://www.bbc.co.uk/news/articles/cn5dkk7yw74o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Venezuelans Aren’t Happy With the U.S. Oil Deal",
-        "url": "https://foreignpolicy.com/2026/09/04/us-venezuela-oil-trump-rodriguez-oligarchs-colonialism-democracy/",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Israeli strikes in southern Lebanese village kill 12",
-        "url": "https://www.bbc.co.uk/news/articles/c5yl96vz0edo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Faisal Islam: Chancellor's attempts to boost vibes may limit tax rises",
-        "url": "https://www.bbc.co.uk/news/articles/c39mz7xlvjzo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
