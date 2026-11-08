@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-08",
+    "items": [
+      {
+        "headline": "What we know so far after Krakow gun attack",
+        "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US task force to cut off Iran’s transport of advanced weapons: What we know",
+        "url": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "‘Wild Horse Nine’ Looks Away From Chile’s History",
+        "url": "https://foreignpolicy.com/2026/11/06/wild-horse-nine-movie-review-chile-cia-coup-history-conspiracy-martin-mcdonagh/",
+        "category": "hist"
+      },
+      {
+        "headline": "Houthis say at least 33 killed in Saudi air strike",
+        "url": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+        "url": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Soviet War on Smoking",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-war-smoking",
+        "category": "hist"
+      },
+      {
+        "headline": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+        "url": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "'My mortgage is going up £200 a month': How rising interest rates are hitting people's pockets",
+        "url": "https://www.bbc.co.uk/news/articles/c617kjqjvk12o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-07",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Japan and South Korea Face Off Again in the US Navy’s Frigate Search",
         "url": "https://thediplomat.com/2026/09/japan-and-south-korea-face-off-again-in-the-us-navys-frigate-search/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-08",
-    "items": [
-      {
-        "headline": "Four Renoir paintings worth millions stolen in French museum heist",
-        "url": "https://www.bbc.co.uk/news/articles/c70drp0pyw2o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
-        "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "At least two people dead after Russian strikes on Kyiv",
-        "url": "https://www.bbc.co.uk/news/articles/cn8m1k7p3v7o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Argentina to file criminal case against oil company operating in Falklands",
-        "url": "https://www.bbc.co.uk/news/articles/c8jd14glvneo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Highest paid world leader to get salary increase of $1 million",
-        "url": "https://www.bbc.co.uk/news/articles/c5y5kn143d1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Saudi Arabia vows to respond after Houthis attack cities and energy facilities",
-        "url": "https://www.bbc.co.uk/news/articles/cp849n2nz01o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
