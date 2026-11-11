@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-11",
+    "items": [
+      {
+        "headline": "Spain sees widespread disruption in first general strike for 14 years",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Vinícius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
+        "url": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Soviet War on Smoking",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-war-smoking",
+        "category": "hist"
+      },
+      {
+        "headline": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+        "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Memory Chips Are Completely Distorting South Korea’s Economy",
+        "url": "https://foreignpolicy.com/2026/11/11/south-korea-semiconductor-memory-chips-artificial-intelligence-inflation-affordability/",
+        "category": "ind"
+      },
+      {
+        "headline": "The Lost Kingdom of Apalache",
+        "url": "https://www.historytoday.com/archive/history-matters/lost-kingdom-apalache",
+        "category": "hist"
+      },
+      {
+        "headline": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+        "url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Who Pays for China’s Manufacturing Price Wars?",
+        "url": "https://thediplomat.com/2026/11/who-pays-for-chinas-manufacturing-price-wars/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-10",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Ryanair boss O'Leary defends 'high-fare rapists' airlines remarks",
         "url": "https://www.bbc.co.uk/news/articles/c5yejw9pjjyo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-11",
-    "items": [
-      {
-        "headline": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
-        "url": "https://www.bbc.co.uk/news/articles/cvgyvk2djk4o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Anthropic blocks possible attempt to use AI to make biological weapons",
-        "url": "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Israel says it has destroyed major underground Hezbollah base",
-        "url": "https://www.bbc.co.uk/news/articles/c4gl92lw8vpo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Myanmar airport closed following reported drone attack",
-        "url": "https://www.aljazeera.com/news/2026/9/11/myanmar-airport-closed-following-reported-drone-attack?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Buddhist monk arrested in suspected $3m embezzlement scandal",
-        "url": "https://www.bbc.co.uk/news/articles/c5yjkxlngjyo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "US inflation holds steady as diesel prices pass $6 a gallon",
-        "url": "https://www.bbc.co.uk/news/articles/cly41rdkrleo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
