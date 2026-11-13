@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-13",
+    "items": [
+      {
+        "headline": "Why is Microsoft's outage lasting so long and will emails be lost?",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "The fight over Canadian steelworker jobs",
+        "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Rosalía scoops historic third best album award at Latin Grammys",
+        "url": "https://www.bbc.co.uk/news/articles/cr3eg97eqde1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Watch: How a server outage took down Microsoft Teams and Outlook",
+        "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US Treasury warns against rate hikes during US-Iran war energy ‘shock’",
+        "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+        "url": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "China’s Drone Carrier Swarms Ahead",
+        "url": "https://thediplomat.com/2026/11/chinas-drone-carrier-swarms-ahead/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-12",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Why Middle East tensions are pushing oil prices above $100",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-13",
-    "items": [
-      {
-        "headline": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Ukraine drone strikes kill four as Russia attacks close to Poland border",
-        "url": "https://www.aljazeera.com/news/2026/9/13/ukraine-drone-strikes-kill-four-as-russia-attacks-close-to-poland-border?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Iran war reshapes Brics ties but also exposes divisions",
-        "url": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
-        "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
-        "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
-        "url": "https://www.bbc.co.uk/news/articles/cq635037g18o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
