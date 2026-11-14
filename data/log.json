@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-14",
+    "items": [
+      {
+        "headline": "What we know about the ground stop and what to do if you're affected",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
+        "url": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+        "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+        "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Japan and the US Need an Allied Technology Market, Not New Tariffs",
+        "url": "https://thediplomat.com/2026/11/japan-and-the-us-need-an-allied-technology-market-not-new-tariffs/",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Italy fines Meta €805m over accessing users' photos",
+        "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Microsoft says services fully restored after day-long global outage",
+        "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-13",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "The Laws of War Must Change for the Drone Age",
         "url": "https://foreignpolicy.com/2026/09/14/drones-civilians-law-geneva-conventions/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-14",
-    "items": [
-      {
-        "headline": "China criticises idea it is in 'malicious competition' over AI",
-        "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Hyrox apologises for allowing race to continue after athlete soils herself",
-        "url": "https://www.bbc.co.uk/news/articles/cx2z5y37p90o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
-        "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump says he will remove all Irish whiskey tariffs as he ends two-day visit",
-        "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Swedish left-wing bloc narrowly ahead with election too close to call",
-        "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Why Middle East tensions are pushing oil prices above $100",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/why-middle-east-tensions-are-pushing-oil-prices-above-100?traffic_source=rss",
         "category": "ind"
       }
     ]
