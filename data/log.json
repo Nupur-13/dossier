@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-15",
+    "items": [
+      {
+        "headline": "Three men sentenced to death in Jordan over fatal church mass shooting",
+        "url": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iran targets US military base in Bahrain with drone attack",
+        "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "South Korea's top scorer in tax accountancy exam admits cheating",
+        "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Will Iraq’s oil smuggling crackdown disarm militias without a conflict?",
+        "url": "https://www.aljazeera.com/news/2026/11/15/will-iraqs-oil-smuggllng-crackdown-disarm-militias-without-a-conflict?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Soviet War on Smoking",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-war-smoking",
+        "category": "hist"
+      },
+      {
+        "headline": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+        "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Japan and the US Need an Allied Technology Market, Not New Tariffs",
+        "url": "https://thediplomat.com/2026/11/japan-and-the-us-need-an-allied-technology-market-not-new-tariffs/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-14",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Japan Faces Hard Choices in Weaning off Russian Energy",
         "url": "https://thediplomat.com/2026/09/japan-faces-hard-choices-in-weaning-off-russian-energy/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-15",
-    "items": [
-      {
-        "headline": "Trump says AI safety fears a 'hoax' as he rejects calls for greater safeguards",
-        "url": "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Denmark says Russian warship fired flares at military helicopter",
-        "url": "https://www.bbc.co.uk/news/articles/cwn8mjl31p5yo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Welsh actor Matthew Rhys makes Emmy Awards history with double win",
-        "url": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "What weapon could the US have put into space?",
-        "url": "https://www.bbc.co.uk/news/articles/cmy4zqgk97wlo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "What are ‘space weapons’, which US says it has deployed into orbit?",
-        "url": "https://www.aljazeera.com/features/2026/9/15/what-are-space-weapons-which-us-says-it-has-deployed-into-orbit?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Suspected sabotage causes major Netherlands rail disruption",
-        "url": "https://www.bbc.co.uk/news/articles/c8ly49w9g1edo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "The Laws of War Must Change for the Drone Age",
-        "url": "https://foreignpolicy.com/2026/09/14/drones-civilians-law-geneva-conventions/",
         "category": "ind"
       }
     ]
