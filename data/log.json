@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-18",
+    "items": [
+      {
+        "headline": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+        "url": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+        "url": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+        "url": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "William and Kate reflect on 'enduring' UK-India ties with Modi",
+        "url": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ecuador’s Fraught Mining Boom",
+        "url": "https://foreignpolicy.com/2026/11/17/ecuador-mining-boom-noboa-agenda-economics-environment-democracy/",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+        "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+        "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-17",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
         "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-18",
-    "items": [
-      {
-        "headline": "Russian hybrid attacks against Europe intensifying, says Macron",
-        "url": "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "'This is our company': Nigerians show off oil wealth after share-buying frenzy",
-        "url": "https://www.bbc.co.uk/news/articles/cw7v4jr2932ro?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Three dead and eight injured in Philippines school shooting",
-        "url": "https://www.bbc.co.uk/news/articles/c6x2z4dlzyr0o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Flight chaos caused by 'millisecond' software defect, report says",
-        "url": "https://www.bbc.co.uk/news/articles/cw0kl1571lpmo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Police begin operation to move migrants from Ceuta beaches",
-        "url": "https://www.bbc.co.uk/news/articles/c6vgy80ge1z7o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "We bought our £242,000 home without a deposit - here's how",
-        "url": "https://www.bbc.co.uk/news/articles/cvj64w204y58o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
