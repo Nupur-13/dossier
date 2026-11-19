@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-19",
+    "items": [
+      {
+        "headline": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+        "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+        "url": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+        "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+        "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Iran’s ‘Boiling Frog’ Strategy",
+        "url": "https://foreignpolicy.com/2026/11/19/iran-war-us-strikes-dirty-bomb-trump-congress-democrats-vali-nasr/",
+        "category": "ind"
+      },
+      {
+        "headline": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+        "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "hist"
+      },
+      {
+        "headline": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+        "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Could New US Chip Restrictions Torpedo Southeast Asia’s AI Ambitions?",
+        "url": "https://thediplomat.com/2026/11/could-new-us-chip-restrictions-torpedo-southeast-asias-ai-ambitions/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-18",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Moscow attacked by more than 1,000 Ukrainian drones",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/moscow-attacked-by-more-than-1000-ukrainian-drones?traffic_source=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-19",
-    "items": [
-      {
-        "headline": "US and Denmark reach deal over Greenland after Trump annexation threats",
-        "url": "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Infrastructure Gaps Test Pakistan&#8217;s Flagship CPEC Industrial Zone, Field Survey Finds",
-        "url": "https://thediplomat.com/2026/09/infrastructure-gaps-test-pakistans-flagship-cpec-industrial-zone-field-survey-finds/",
-        "category": "ind"
-      },
-      {
-        "headline": "Shipki La and the Battle Over the History of China-India Trade",
-        "url": "https://thediplomat.com/2026/09/shipki-la-and-the-battle-over-the-history-of-china-india-trade/",
-        "category": "hist"
-      },
-      {
-        "headline": "Trump says he is banning CNN and Politico from White House",
-        "url": "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Drones Offer Central Asia an Escape From Foreign Dependency",
-        "url": "https://thediplomat.com/2026/09/drones-offer-central-asian-an-escape-from-foreign-dependency/",
-        "category": "ind"
-      },
-      {
-        "headline": "Warren Buffett steps down after six decades at Berkshire - 'Father Time always wins'",
-        "url": "https://www.bbc.co.uk/news/articles/cvj64dl1w6yno?at_medium=RSS&amp;at_campaign=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Google's Gemini AI hacked three companies in security test",
-        "url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran",
-        "url": "https://www.bbc.co.uk/news/articles/cq0m3gmv8n7ko?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
