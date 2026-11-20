@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-20",
+    "items": [
+      {
+        "headline": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+        "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+        "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Trump, Xi, Putin Hold Historic Trilateral Talks",
+        "url": "https://foreignpolicy.com/2026/11/19/trump-xi-putin-trilateral-talks-nuclear-disarmament-un-icc-oil/",
+        "category": "hist"
+      },
+      {
+        "headline": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+        "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US Senate passes bill to speed up energy project approvals",
+        "url": "https://www.aljazeera.com/news/2026/11/20/us-senate-passes-bill-to-speed-up-energy-project-approvals?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
+        "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "In Italy, Meloni Grapples With a Potential Spoiler",
+        "url": "https://foreignpolicy.com/2026/11/19/italy-meloni-vannacci-far-right-spoiler-elections-ukraine/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-19",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Ahead of Trump-Xi Summit, North Korea Launches More Missiles",
         "url": "https://thediplomat.com/2026/09/ahead-of-trump-xi-summit-north-korea-launches-more-missiles/",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-20",
-    "items": [
-      {
-        "headline": "Ed Sheeran admits 'mistakes' at first show since Macklemore controversy",
-        "url": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Largest attack on Moscow sees Ukraine fire hundreds of drones, mayor says",
-        "url": "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Shipki La and the Battle Over the History of China-India Trade",
-        "url": "https://thediplomat.com/2026/09/shipki-la-and-the-battle-over-the-history-of-china-india-trade/",
-        "category": "hist"
-      },
-      {
-        "headline": "German elections under way which could decide fate of Chancellor Merz",
-        "url": "https://www.bbc.co.uk/news/articles/cme8xj6g2ny7o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Houthis say they targeted Saudi capital with ballistic missiles",
-        "url": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Trump says his planned triumphal arch will double as a military complex to store ammunition",
-        "url": "https://www.bbc.co.uk/news/articles/cqdj4pez00dzo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Moscow attacked by more than 1,000 Ukrainian drones",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/20/moscow-attacked-by-more-than-1000-ukrainian-drones?traffic_source=rss",
         "category": "ind"
       }
     ]
