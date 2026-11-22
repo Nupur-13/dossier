@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-22",
+    "items": [
+      {
+        "headline": "South Korea education minister resigns over exam cheating scandal",
+        "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+        "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Russia-bound ship towed away after it was attacked in Gulf of Finland",
+        "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Three killed and dozens missing after fire at Indonesian factory",
+        "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "The Soviet War on Smoking",
+        "url": "https://www.historytoday.com/archive/history-matters/soviet-war-smoking",
+        "category": "hist"
+      },
+      {
+        "headline": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+        "url": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russian vessel hit by suspected sea drone at Libya’s Benghazi naval base",
+        "url": "https://www.aljazeera.com/news/2026/11/22/suspected-drone-strike-hits-russian-vessel-in-libya?traffic_source=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-21",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Off sick? You need to phone your boss, back-to-work adviser says",
         "url": "https://www.bbc.co.uk/news/articles/cq0lry248y2zo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-22",
-    "items": [
-      {
-        "headline": "Sri Lanka court convicts 15 men over deadly Easter Sunday bombings",
-        "url": "https://www.bbc.co.uk/news/articles/cqy7z275yx65o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Reciprocal Trade Deal With the US Close to Completion, Vietnamese Media Reports",
-        "url": "https://thediplomat.com/2026/09/reciprocal-trade-deal-with-the-us-close-to-completion-vietnamese-media-reports/",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Lithuania ready to 'fight back' but has evacuation plans in face of Russia threats, PM tells BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ck5yw8npxzrlo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Ahead of Trump-Xi Summit, North Korea Launches More Missiles",
-        "url": "https://thediplomat.com/2026/09/ahead-of-trump-xi-summit-north-korea-launches-more-missiles/",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "Developing El Niño becomes strongest on record weeks before expected peak",
-        "url": "https://www.bbc.co.uk/weather/articles/cmvgy4nv9d62o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Sir Jim Ratcliffe suspends production at key UK plants blaming high gas prices",
-        "url": "https://www.bbc.co.uk/news/articles/cw305ynd69n6o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
