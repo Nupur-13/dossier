@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-23",
+    "items": [
+      {
+        "headline": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+        "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+        "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Huang’s Return Is the Biggest National Security Scandal in U.S. History",
+        "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+        "category": "hist"
+      },
+      {
+        "headline": "What strike on Russian ship in Libya says about spread of Ukraine war",
+        "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ukraine’s Energy Plan Was Too Little, Too Late",
+        "url": "https://foreignpolicy.com/2026/11/23/ukraine-winter-energy-renewables-russian-strikes-infrastructure/",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Iranian authorities flog singer who performed without hijab, lawyers say",
+        "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Faisal Islam: Why Jensen Huang proved too big to fire",
+        "url": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-22",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Reported assaults on Britain's rail services rise by more than a third",
         "url": "https://www.bbc.co.uk/news/articles/c6z0z5dz884lo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-23",
-    "items": [
-      {
-        "headline": "US and Iran hold first talks since June after Trump's 'annihilation' threat",
-        "url": "https://www.bbc.co.uk/news/articles/ck62m1631d7po?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump pushes Russia-Ukraine ‘energy truce’: Can it work?",
-        "url": "https://www.aljazeera.com/news/2026/9/23/trump-pushes-russia-ukraine-energy-truce-can-it-work?traffic_source=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How AI Fits Into Humanity’s Troubling History",
-        "url": "https://foreignpolicy.com/2026/09/22/artificial-intelligence-human-history-technological-development-risks/",
-        "category": "hist"
-      },
-      {
-        "headline": "Reports of violence against women in Gaza surge, UN agency finds",
-        "url": "https://www.bbc.co.uk/news/articles/c94gm7dp40y0o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Trump reveals millions of dollars' worth of share deals in big tech and AI",
-        "url": "https://www.bbc.co.uk/news/articles/c6p3kxpp8lezo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
-        "url": "https://www.bbc.co.uk/news/articles/cry8zwwq21pxo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Off sick? You need to phone your boss, back-to-work adviser says",
-        "url": "https://www.bbc.co.uk/news/articles/cq0lry248y2zo?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
