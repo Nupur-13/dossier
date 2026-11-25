@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-25",
+    "items": [
+      {
+        "headline": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+        "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "US announces new tariffs on host of countries including China",
+        "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Gift Horses from the Ottoman Sultan",
+        "url": "https://www.historytoday.com/archive/history-matters/gift-horses-ottoman-sultan",
+        "category": "hist"
+      },
+      {
+        "headline": "Israeli judges recommend dropping most serious charges against Netanyahu",
+        "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Ukrainian laser downs Russian jet-powered drone in world first",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/ukrainian-laser-downs-russian-jet-powered-drone-in-world-first?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "US stocks fall further as fears over AI intensify",
+        "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
+        "url": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis?traffic_source=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-24",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Could an iced coffee freeze you out of the job market?",
         "url": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-25",
-    "items": [
-      {
-        "headline": "Pope warns against 'losing humanity' to AI machines",
-        "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "India’s Semiconductor Journey: Old Designer, New Producer",
-        "url": "https://thediplomat.com/2026/09/indias-semiconductor-journey-old-designer-new-producer/",
-        "category": "ind"
-      },
-      {
-        "headline": "China swimmer makes Asian Games history as Thai sprinter wins track 100m",
-        "url": "https://www.aljazeera.com/sports/2026/9/25/china-swimmer-makes-asian-games-history-as-thai-sprinter-wins-track-100m?traffic_source=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "Trump and Xi exchange warm words at state dinner but little progress on key issues",
-        "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "US backs Elon Musk's bid to overturn €120m EU fine against X",
-        "url": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Cambodian Beauty Pageant Acknowledges Mistaken Use of Thai Historical Photograph",
-        "url": "https://thediplomat.com/2026/09/cambodian-beauty-pageant-acknowledges-mistaken-use-of-thai-historical-photograph/",
-        "category": "hist"
-      },
-      {
-        "headline": "Xi got Trump's red carpet welcome - but not everything he wanted",
-        "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "UK diesel price close to all-time high",
-        "url": "https://www.bbc.co.uk/news/articles/c20zgjzz0e4o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
