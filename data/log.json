@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-26",
+    "items": [
+      {
+        "headline": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+        "url": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "What will Trump’s latest tariffs mean for the world?",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/11/26/what-will-trumps-latest-tariffs-mean-for-the-world?traffic_source=rss",
+        "category": "ind"
+      },
+      {
+        "headline": "Gift Horses from the Ottoman Sultan",
+        "url": "https://www.historytoday.com/archive/history-matters/gift-horses-ottoman-sultan",
+        "category": "hist"
+      },
+      {
+        "headline": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
+        "url": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Tariff Man Strikes Again",
+        "url": "https://foreignpolicy.com/2026/11/25/trump-new-tariffs-section-301-china-eu-india-abrego-garcia-deportation-spain/",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+        "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Morocco’s Royal Industrial Vision: A Global Strategic Opportunity",
+        "url": "https://thediplomat.com/2026/11/moroccos-royal-industrial-vision-a-global-strategic-opportunity/",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-25",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Faisal Islam: The two big decisions the chancellor must make",
         "url": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-26",
-    "items": [
-      {
-        "headline": "Huge crowds greet Pope in Paris for open-air Mass",
-        "url": "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "From Idols to KOICA: South Korea’s Disaster Support for Nepal",
-        "url": "https://thediplomat.com/2026/09/from-idols-to-koica-south-koreas-disaster-support-for-nepal/",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Iran offers US deal to reopen Strait of Hormuz in seven days",
-        "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "OpenAI bots meddled with multiple US government agency sites",
-        "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "How the Carthusians Resisted the Reformation",
-        "url": "https://www.historytoday.com/archive/history-matters/how-carthusians-resisted-reformation",
-        "category": "hist"
-      },
-      {
-        "headline": "British national among six dead in building explosion close to Acropolis in Athens",
-        "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Could an iced coffee freeze you out of the job market?",
-        "url": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
