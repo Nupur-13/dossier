@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-11-27",
+    "items": [
+      {
+        "headline": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+        "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Tariff Man Strikes Again",
+        "url": "https://foreignpolicy.com/2026/11/25/trump-new-tariffs-section-301-china-eu-india-abrego-garcia-deportation-spain/",
+        "category": "ind"
+      },
+      {
+        "headline": "Gift Horses from the Ottoman Sultan",
+        "url": "https://www.historytoday.com/archive/history-matters/gift-horses-ottoman-sultan",
+        "category": "hist"
+      },
+      {
+        "headline": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+        "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Morocco’s Royal Industrial Vision: A Global Strategic Opportunity",
+        "url": "https://thediplomat.com/2026/11/moroccos-royal-industrial-vision-a-global-strategic-opportunity/",
+        "category": "ind"
+      },
+      {
+        "headline": "How Dancing Became a Sin",
+        "url": "https://www.historytoday.com/archive/history-matters/how-dancing-became-sin",
+        "category": "hist"
+      },
+      {
+        "headline": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+        "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&amp;at_campaign=rss",
+        "category": "geo"
+      },
+      {
+        "headline": "Faisal Islam: Why Trump's new tariffs are less of a threat",
+        "url": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&amp;at_campaign=rss",
+        "category": "ind"
+      }
+    ]
+  },
+  {
     "date": "2026-11-26",
     "items": [
       {
@@ -2650,51 +2695,6 @@
       {
         "headline": "Arming an adversary: Why Trump’s offer to sell China weapons belies US policy",
         "url": "https://www.aljazeera.com/news-analysis/2026/9/28/arming-an-adversary-why-trump-offer-to-sell-china-weapons-belies-us-policy?traffic_source=rss",
-        "category": "ind"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-27",
-    "items": [
-      {
-        "headline": "Iranian minister says only negotiation can end conflict after Trump rejects Hormuz deal",
-        "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "From Idols to KOICA: South Korea’s Disaster Support for Nepal",
-        "url": "https://thediplomat.com/2026/09/from-idols-to-koica-south-koreas-disaster-support-for-nepal/",
-        "category": "ind"
-      },
-      {
-        "headline": "US installation commemorates victims of South African ‘white genocide’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/us-installation-commemorates-victims-of-south-african-white?traffic_source=rss",
-        "category": "hist"
-      },
-      {
-        "headline": "'Scourge' of abuse must be rooted out, says Pope, during Lourdes visit",
-        "url": "https://www.bbc.co.uk/news/articles/cm5y5nj8ejj8o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Andy Burnham refuses to back third runway at Heathrow",
-        "url": "https://www.bbc.co.uk/news/articles/cvrl6y8rx08wo?at_medium=RSS&amp;at_campaign=rss",
-        "category": "ind"
-      },
-      {
-        "headline": "Golden Horses, Red Square",
-        "url": "https://www.historytoday.com/archive/history-matters/golden-horses-red-square",
-        "category": "hist"
-      },
-      {
-        "headline": "Two mass shootings in South Africa leave 27 dead",
-        "url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&amp;at_campaign=rss",
-        "category": "geo"
-      },
-      {
-        "headline": "Faisal Islam: The two big decisions the chancellor must make",
-        "url": "https://www.bbc.co.uk/news/articles/cklye5e40531o?at_medium=RSS&amp;at_campaign=rss",
         "category": "ind"
       }
     ]
